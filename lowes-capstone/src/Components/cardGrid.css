@@ -2,8 +2,3 @@
     display: flex;
     flex-direction: row;
 }
-
-.workshopCard{
-    width: 100rem;
-    height: auto;
-}

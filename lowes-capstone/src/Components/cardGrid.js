@@ -1,5 +1,4 @@
 import React from 'react'
-import WorkshopCard from './Card';
 import './cardGrid.css'
 
 const CardGrid = () => {
@@ -7,15 +6,7 @@ const CardGrid = () => {
     <div>
         <h3 className="cardGridTitle">Title</h3>
       <section className="cardGrid">
-        <WorkshopCard className="workshopCard"/>
-        <WorkshopCard className="workshopCard"/>
-        <WorkshopCard className="workshopCard"/>
-        <WorkshopCard className="workshopCard"/>
-        <WorkshopCard className="workshopCard"/>
     
-        
-
-       
       </section>
     </div>
   )
