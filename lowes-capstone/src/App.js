@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { Login } from "./Pages/Login";
-import { Register } from "./Pages/Register";
+import  Register  from "./Pages/Register"; //OOP
 import Footer from "./Components/footer";
 import Home from "./Pages/Home";
 
@@ -13,6 +13,7 @@ function App() {
   };
 
   return (
+    
     <div className="App">
       {currentForm === "login" ? (
         <Login onFormSwitch={toggleForm} />
