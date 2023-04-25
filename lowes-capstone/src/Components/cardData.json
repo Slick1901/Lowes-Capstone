@@ -1,56 +1,183 @@
 [
     {
         "id": 1,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "image": "https://mobileimages.lowes.com/marketingimages/809f657a-da6e-4973-bae0-cb2cf66a71c3/ht-install-a-kitchen-faucet-removefaucet.jpg",
+        "title": "How to Replace a Faucet",
+        "text": "djbbdsjbkjc",
+        "category": "Women Empowerment",
+        "location": "in-store",
+        "date": "07/01/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "medium",
+        "time": "10:00 am - 11:30 am"
     },
     {
         "id": 2,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "image": "https://www.moneypit.com/wp-content/uploads/2017/01/drywall_spackle_repair_sand_sanding_shutterstock_125692391-400x300.jpg",
+        "title": "Dry Wall Repair",
+        "text": "djbbdsjbkjc",
+        "category": "Women Empowerment",
+        "location": "in-person",
+        "date": "09/30/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "10:00 am - 11:30 pm"
     },
     {
         "id": 3,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "image": "https://www.thespruce.com/thmb/-2tM8siGy06h6lyJErZy1oeG6do=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/removable-diy-kitchen-backsplashes-3017311-hero-92d327c3af514751b27642b2430325af.jpg",
+        "title": "Tile Backsplash Install",
+        "text": "djbbdsjbkjc",
+        "category": "Women Empowerment",
+        "location": "in-person",
+        "date": "10/14/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "11:00 am - 12:30 pm"
     },
     {
         "id": 4,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "image": "https://www.familyhandyman.com/wp-content/uploads/2022/07/GettyImages-1268388454-e1658252215366.jpg",
+        "title": "Priming and Painting 101",
+        "text": "djbbdsjbkjc",
+        "category": "Women Empowerment",
+        "location": "in-person",
+        "date": "11/04/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "11:00 am - 12:00 am"
     },
     {
         "id": 5,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "image": "https://cdn-ailom.nitrocdn.com/opKfgPWIFCjrldmbrdKJvIDPqBFvBPjr/assets/images/optimized/rev-546509e/wp-content/uploads/2021/03/How-Do-You-Prepare-The-Soil-for-a-Raised-Garden-Bed_.jpg",
+        "title": "Raised Garden Bed Prep",
+        "text": "djbbdsjbkjc",
+        "category": "Handi-capable",
+        "location": "in-person",
+        "date": "05/13/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "medium",
+        "time": "10:00 am - 12:00 pm"
     },
     {
-        "id": 5,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "id": 6,
+        "image": "https://poulshotvt.org/wp-content/uploads/2022/01/how-to-build-a-birdhouse-step-10-A.jpg",
+        "title": "Birdhouse Bulding (with glue)",
+        "text": "djbbdsjbkjc",
+        "category": "Handi-capable",
+        "location": "in-person",
+        "date": "08/05/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "10:00 am - 12:30 pm"
     },
     {
-        "id": 5,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "id": 7,
+        "image": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2019/5/1/2/original_Shain-Rievley_ReplaceDoorKnob_step1a.jpg.rend.hgtvcom.1280.960.suffix/1556797622985.jpeg",
+        "title": "Replacing Doorknobs and Locks",
+        "text": "djbbdsjbkjc",
+        "category": "Handi-capable",
+        "location": "in-person",
+        "date": "08/05/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "10:00 am - 12:00 pm"
     },
     {
-        "id": 5,
-        "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "id": 8,
+        "image": "https://louiserosephotography.com/wp-content/uploads/2018/02/How-to-hang-a-photo-on-the-wall.jpg",
+        "title": "Hanging Pictures, Mirrors, Shelves, Oh my!",
+        "text": "djbbdsjbkjc",
+        "category": "The Basics",
+        "location": "in-person",
+        "date": "06/10/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "10:00 am - 12:00 pm"
     },
     {
-        "id": 5,
+        "id": 9,
+        "image": "https://www.trirentall.net/wp-content/uploads/2022/01/shutterstock_454449892.jpg",
+        "title": "Basic Hand and Power Tool Knowledge",
+        "text": "djbbdsjbkjc",
+        "category": "The Basics",
+        "location": "in-person",
+        "date": "08/05/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "11:00 am - 12:30 pm"
+    },
+    {
+        "id": 10,
+        "image": "https://www.honeygood.com/wp-content/uploads/2020/05/main10TopTipsimage-x1080.jpg",
+        "title": "Gardening 101",
+        "text": "djbbdsjbkjc",
+        "category": "The Basics",
+        "location": "in-person",
+        "date": "09/23/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "09:30 am - 11:30 am"
+    },
+    {
+        "id": 11,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-88798568-1519142039.jpg",
+        "title": "Caulking Like a Pro",
+        "text": "djbbdsjbkjc",
+        "category": "The Basics",
+        "location": "in-person",
+        "date": "11/18/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "easy",
+        "time": "12:00 pm - 1pm"
+    },
+    {
+        "id": 12,
+        "image": "https://media.defense.gov/2018/Jan/03/2001862639/-1/-1/0/180119-A-PO640-012.JPG",
+        "title": "Fire Safety",
+        "text": "djbbdsjbkjc",
+        "category": "Kids",
+        "location": "in-person",
+        "date": "06/03/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "All Ages",
+        "time": "11:00 am - 12:30 pm"
+    },
+    {
+        "id": 13,
+        "image": "https://cdn-dlgcl.nitrocdn.com/tmGaNJfJdOTHmvHnrMnNNiiFfZqicmpY/assets/static/source/rev-f395603/wp-content/uploads/2022/04/AdobeStock_340907550-1024x708.jpeg",
+        "title": "Plant Pot Gardening",
+        "text": "djbbdsjbkjc",
+        "category": "Kids",
+        "location": "in-person",
+        "date": "07/29/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "All Ages",
+        "time": "10:00 am - 11:30 am"
+    },
+    {
+        "id": 14,
         "image": "https://mdbootstrap.com/img/new/standard/nature/111.webp",
-        "title": "hello",
-        "text": "djbbdsjbkjc"
+        "title": "Rolling Toy Pickup Truck",
+        "text": "djbbdsjbkjc",
+        "category": "Kids",
+        "location": "in-person",
+        "date": "08/12/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "Ages 5+",
+        "time": "10:00 am - 12:00 pm"
+    },
+    {
+        "id": 15,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/homemade-christmas-ornaments-glass-snowglobe-1568728209.jpg?resize=480:*",
+        "title": "Ornament Decorating",
+        "text": "djbbdsjbkjc",
+        "category": "Kids",
+        "location": "in-person",
+        "date": "12/09/23",
+        "address": "Home Improvement Store",
+        "difficulty-level": "Ages 7+",
+        "time": "10:00 am - 1:00 pm"
     }
+    
 ]

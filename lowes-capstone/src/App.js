@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
 import "./Login.css";
 import { Login } from "./Pages/Login";
-import { Register } from "./Pages/Register";
-// import Footer from "./Components/footer";
+import  Register  from "./Pages/Register"; //OOP
+import Footer from "./Components/footer";
 import Home from "./Pages/Home";
 // import Nav from "./Components/Nav";
 import AboutPage from "./Pages/About";
