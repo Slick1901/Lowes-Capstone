@@ -13,8 +13,6 @@ import {
 
 
 export default function Card() {
-  // const propData = props
-  // console.log(props)
   return (
     data.map((item) => {
       return (
