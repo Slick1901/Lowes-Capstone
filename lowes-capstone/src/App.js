@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Login.css";
 import { Login } from "./Pages/Login";
 import  Register  from "./Pages/Register"; //OOP
-import Footer from "./Components/footer";
-import Home from "./Pages/Home";
+// import Footer from "./Components/footer";
+// import Home from "./Pages/Home";
 
 function App() {
   const [currentForm, setCurrentForm] = useState("login");
@@ -20,8 +20,8 @@ function App() {
       ) : (
         <Register onFormSwitch={toggleForm} />
       )}
-      <Home />
-      <Footer />
+      {/* <Home /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

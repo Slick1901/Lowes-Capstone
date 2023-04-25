@@ -1,5 +1,6 @@
 import React from "react";
 import zxcvbn from "zxcvbn"; //library used to test the strength of the password the client creates
+import Footer from "../Components/footer";
 
 // used OOP(Object Oriented Programming)
 //create a class that extends the React.Component class.
@@ -57,6 +58,9 @@ class Register extends React.Component {
         break;
     }
 
+      // Validation functions
+      
+      
 
 
     return (
@@ -98,6 +102,7 @@ class Register extends React.Component {
         >
           Already have an account? Login here.
         </button>
+        <Footer />
       </div>
     );
   }
