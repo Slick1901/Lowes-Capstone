@@ -1,7 +1,11 @@
 import React from "react";
-
+import Nav from './Nav'
+import Footer from "./footer";
+import Founders from "./Founders";
 const AboutPage = () => {
   return (
+  <div>
+    <Nav/>
     <div className="about-container">
       <h1 className="about-header">About Us</h1>
       <p className="about-description">
@@ -18,6 +22,9 @@ const AboutPage = () => {
         We rely on the generosity of our donors and volunteers to continue our
         work. Thank you for your support!
       </p>
+    </div>
+<Founders/>
+    <Footer/>
     </div>
   );
 };
