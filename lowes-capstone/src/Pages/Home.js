@@ -4,11 +4,14 @@ import Card from '../Components/Card';
 import data from '../Components/cardData.json'
 import Carousel from '../Components/Carousel';
 import './Home.css'
+import Footer from '../Components/footer';
+import Nav from '../Components/Nav';
 
 const Home = () => {
 
   return (
     <div>
+        <Nav />
         <Carousel />
         <section className='section'>
         <h2>Workshop Category 1</h2>
@@ -28,6 +31,7 @@ const Home = () => {
             <Card props = {data} width='100%' className="card"/>
         </div>
         </section>
+        <Footer />
     </div>
   )
 }
