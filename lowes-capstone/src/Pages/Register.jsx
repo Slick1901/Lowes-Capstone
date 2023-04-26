@@ -57,6 +57,11 @@ class Register extends React.Component {
         break;
     }
 
+      // Validation functions
+      
+      
+
+
     return (
       <div className="auth-form-container">
         <h2>Register</h2>
