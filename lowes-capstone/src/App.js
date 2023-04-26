@@ -1,38 +1,36 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./Login.css";
 import { Login } from "./Pages/Login";
-import  Register  from "./Pages/Register"; //OOP
+import Register from "./Pages/Register";
 import Footer from "./Components/footer";
 import Home from "./Pages/Home";
-// import Nav from "./Components/Nav";
 import AboutPage from "./Pages/About";
 import Layout from "./Pages/Layout";
 import Logreg from "./Components/Logreg";
+import axios from "axios";
+
 
 function App() {
- 
-
   return (
+    <Router>
       <div className="App">
-        {/* <div>{currentForm}</div> */}
-        <BrowserRouter>
-        {/* <Nav /> */}
         <Routes>
-          {/* <Route path="/" element={<Layout />}>  */}
-          <Route index element={<Home />} />
-          <Route path="about" element={<AboutPage />} />
-          <Route path="/login" element={<Logreg />}  />
-          {/* <Route path="/register" element={<Register onFormSwitch={toggleForm} />} /> */}
-          {/* </Route> */}
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Route>
         </Routes>
-        {/* <Footer /> */}
-        </BrowserRouter>
+        <Footer />
       </div>
+    </Router>
   );
 }
 
 export default App;
+
 
 
 

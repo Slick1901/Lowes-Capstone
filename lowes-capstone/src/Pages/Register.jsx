@@ -1,36 +1,43 @@
 import React from "react";
-import zxcvbn from "zxcvbn"; //library used to test the strength of the password the client creates
-
-// used OOP(Object Oriented Programming)
-//create a class that extends the React.Component class.
+import zxcvbn from "zxcvbn";
+import axios from "axios";
 
 class Register extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: "",
-      pass: "",
       name: "",
+      email: "",
+      password: "",
       score: 0,
+      errorMessage: "",
     };
-    //move the state variables and functions into the Register class and use the `this` keyword 
-    //to reference 
 
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePasswordChange = this.handlePasswordChange.bind(this);
   }
-//class also includes a constructor method that initializes the state and binds the 
-//handleSubmit and handlePasswordChange methods to `this`.
-  
+
   handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state.email);
+
+    const { name, email, password } = this.state;
+
+    axios
+      .post("/register", { name, email, password })
+      .then((response) => {
+        console.log(response);
+        this.props.onFormSwitch("login");
+      })
+      .catch((error) => {
+        console.log(error);
+        this.setState({ errorMessage: "Registration failed" });
+      });
   }
 
   handlePasswordChange(e) {
     const password = e.target.value;
     const { score } = zxcvbn(password);
-    this.setState({ pass: password, score: score });
+    this.setState({ password: password, score: score });
   }
 
   render() {
@@ -57,24 +64,23 @@ class Register extends React.Component {
         break;
     }
 
-      // Validation functions
-      
-      
-
-
     return (
       <div className="auth-form-container">
         <h2>Register</h2>
+        {this.state.errorMessage && (
+          <div className="error-message">{this.state.errorMessage}</div>
+        )}
         <form className="register-form" onSubmit={this.handleSubmit}>
           <label htmlFor="name">Full Name</label>
-          <input
+           <input
             value={this.state.name}
-            name="name"
             onChange={(e) => this.setState({ name: e.target.value })}
+            type="text"
+            placeholder="Full Name"
             id="name"
-            placeholder="full Name"
+            name="name"
           />
-          <label htmlFor="email">Email</label>
+                  <label htmlFor="email">Email</label>
           <input
             value={this.state.email}
             onChange={(e) => this.setState({ email: e.target.value })}
@@ -85,7 +91,7 @@ class Register extends React.Component {
           />
           <label htmlFor="password">Password</label>
           <input
-            value={this.state.pass}
+            value={this.state.password}
             onChange={this.handlePasswordChange}
             type="password"
             placeholder="********"

@@ -1,17 +1,24 @@
 import React, { useState } from "react";
-// import "../Login.css";
+import axios from "axios";
 
 export const Login = (props) => {
   const [email, setEmail] = useState("");
-  const [pass, setPass] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(email);
+    axios
+      .post("/login", { email, password })
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
-      <>
+    <>
       <div className="auth-form-container">
         <h2>Login</h2>
         <form className="login-form" onSubmit={handleSubmit}>
@@ -26,8 +33,8 @@ export const Login = (props) => {
           />
           <label htmlFor="password">Password</label>
           <input
-            value={pass}
-            onChange={(e) => setPass(e.target.value)}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             type="password"
             placeholder="********"
             id="password"
