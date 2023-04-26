@@ -14,7 +14,7 @@ function Logreg() {
   
     return (
       <div>
-      <div className="App">
+      <div className="application">
         {currentForm === "login" ? (
           <Login onFormSwitch={toggleForm} />
         ) : (

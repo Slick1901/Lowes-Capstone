@@ -8,25 +8,22 @@ import Home from "./Pages/Home";
 // import Nav from "./Components/Nav";
 import AboutPage from "./Pages/About";
 import Layout from "./Pages/Layout";
+import Logreg from "./Components/Logreg";
 
 function App() {
-  const [currentForm, setCurrentForm] = useState("login");
-
-  const toggleForm = (formName) => {
-    setCurrentForm(formName);
-  };
+ 
 
   return (
       <div className="App">
-        <div>{currentForm}</div>
+        {/* <div>{currentForm}</div> */}
         <BrowserRouter>
         {/* <Nav /> */}
         <Routes>
           {/* <Route path="/" element={<Layout />}>  */}
           <Route index element={<Home />} />
           <Route path="about" element={<AboutPage />} />
-          <Route path="/login" element={<Login onFormSwitch={toggleForm} />} />
-          <Route path="/register" element={<Register onFormSwitch={toggleForm} />} />
+          <Route path="/login" element={<Logreg />}  />
+          {/* <Route path="/register" element={<Register onFormSwitch={toggleForm} />} /> */}
           {/* </Route> */}
         </Routes>
         {/* <Footer /> */}
