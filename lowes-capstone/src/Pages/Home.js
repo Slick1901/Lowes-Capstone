@@ -35,7 +35,6 @@ function Home(item) {
         <h3>Women Empowerment Workshops</h3>
         <div class='cardsWrapper'>
             <Manny props={data} workshopDetail="Deborah"/>
-
         </div>
         </section> */}
         {/* <h3>Virtual Workshops</h3> */}
