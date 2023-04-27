@@ -1,4 +1,8 @@
 
+.workshopContainer{
+    width: 90%;
+    margin: 0 auto;
+}
 
 .cardsWrapper {
     grid-column: center-start / -1;
@@ -9,16 +13,6 @@
     padding-bottom: 1rem;
     padding-right: var(--page-margin);
 }  
-
-.card {
-    display: grid;
-    place-content: center;
-    background-color: #6a9be4;
-    font-size: 1.5rem;
-    height: auto;
-    min-width: 20rem;
-}
-
 
 .section {
     margin: 5rem 0;
