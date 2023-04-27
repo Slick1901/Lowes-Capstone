@@ -1,9 +1,6 @@
-/* .page{
-    background-color: whitesmoke;
-} */
 
-.hey{
-    width: 80%;
+.workshopContainer{
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -16,20 +13,6 @@
     padding-bottom: 1rem;
     padding-right: var(--page-margin);
 }  
-
-.card {
-    display: grid;
-    place-content: center;
-    background-color: #6a9be4;
-    font-size: 1.5rem;
-    height: 100%;
-    min-width: 20rem;
-}
-
-.card-body{
-    height: 10rem;
-}
-
 
 .section {
     margin: 5rem 0;

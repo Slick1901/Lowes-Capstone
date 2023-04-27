@@ -1,4 +1,6 @@
-
+.workshopInfoContainer .card{
+    background-color: #6a9be4;
+}
 .byLine{
     font-style: italic;
 }

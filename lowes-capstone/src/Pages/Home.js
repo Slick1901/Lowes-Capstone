@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../Components/Card';
 // import logo from '../we-are.jpeg'
 import data from '../Components/cardData.json'
-import './Home.css'
+import classes from './Home.module.css'
 import Footer from '../Components/footer';
 import Hero from '../Components/Hero';
 import WorkshopCard from '../Components/WorkshopCard';
@@ -10,11 +10,11 @@ import WorkshopInfo from '../Components/WorkshopInfo';
 
 function Home(item) {
   return (
-    <div className='page'>
+    <div >
         <Hero />
 <WorkshopInfo />
-        <div className='hey'>
-        <section className='section'>
+        <div className={classes.workshopContainer}>
+        <section className={classes.section}>
         <h2>In-Person Workshops</h2>
         <h3>{item.category}</h3>
         <div>
@@ -37,9 +37,9 @@ function Home(item) {
         </div>
         </section> */}
         {/* <h3>Virtual Workshops</h3> */}
-        <section className='section'>
+        <section className={classes.section}>
        <h3>Virtual Workshops</h3>
-         <div class='cardsWrapper'>
+         <div className={classes.cardsWrapper}>
             <Card props = {data} width='100%'/>
         </div>
         </section>

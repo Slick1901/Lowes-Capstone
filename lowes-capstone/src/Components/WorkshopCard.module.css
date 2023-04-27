@@ -1,4 +1,4 @@
-.mannyHolder{
+.holder{
 display: grid;
 grid-template-columns:repeat(5, 1fr);
 align-items: center;
@@ -8,36 +8,33 @@ border-radius: 0.5rem;
 box-shadow: 1rem .2rem .5rem #486da3;
 }
 
-/* .card-body{
-    background-color: #6a9be4;
-} */
 
-.card{
-    /* width: 20rem ; */
+.work .card{
     grid-column-start: 1;
     grid-column-end: 3;
+    background-color: red; 
+}
+
+.work .card-body{
+    background-color: #6a9be4;
 }
 
 .workshopInfo{
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 6;
     color: black;
     margin: 1.5rem;
     
+    
 }
 
-/* .mannyHolder{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .itemWrapper {
     display: flex;
     justify-content: center; 
      align-items: center;
 }
- .itemPicture{
+.itemPicture{
     height: 200px;
     width:200px;
 } 

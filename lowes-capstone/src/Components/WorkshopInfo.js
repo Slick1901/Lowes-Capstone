@@ -9,6 +9,7 @@ import './WorkshopInfo.css'
 
 export default function WorkshopInfo() {
   return (
+    <div className='workshopInfoContainer'>
     <MDBCard className="info">
       <MDBCardHeader>Workshops</MDBCardHeader>
       <MDBCardBody>
@@ -20,5 +21,6 @@ export default function WorkshopInfo() {
         </MDBTypography>
       </MDBCardBody>
     </MDBCard>
+    </div>
   );
 }
