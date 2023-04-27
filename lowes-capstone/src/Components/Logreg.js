@@ -17,7 +17,7 @@ function Logreg() {
       <Nav />
       <div className="login-container">
         <div className="login-img">
-          <img src={process.env.PUBLIC_URL + '/images/log.png'} style={{ width: '400px', height: 'auto' }} />
+          <img src={process.env.PUBLIC_URL + '/images/log.png'} style={{ width: '450px', height: 'auto' }} />
         </div>
         <div className="login-form">
           {currentForm === "login" ? (

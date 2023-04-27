@@ -40,7 +40,6 @@ export const Login = (props) => {
             placeholder="youremail@gmail.com"
             id="email"
             name="email"
-            className="input-field"
           />
           <label htmlFor="password">Password</label>
           <input
@@ -50,9 +49,8 @@ export const Login = (props) => {
             placeholder="********"
             id="password"
             name="password"
-            className="input-field"
           />
-          <button style={{ alignItems: 'center' }}  className="login-button" onClick={login}>Login</button>
+         <button onClick={login}>Login</button>
         </form>
       </div>
       <h1>{loginStatus}</h1>

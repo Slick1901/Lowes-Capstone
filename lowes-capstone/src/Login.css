@@ -1,84 +1,86 @@
-.application  {
-    text-align: center;
-    font-family:monospace;
-    font-size:larger;
-    display: flex;
-    min-height: 100vh;
-    margin-left: 300px;
-    align-items: center;
-    justify-content: center;
-    color: black;
-  }
-  
-  .login-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  
-  .login-img {
-    margin-right: 20px;
-  }
-  
-  .login-form {
-    width: 60%;
-  }
-  
-.input-field {
-  width: 180%;
+.application {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(
+    79deg,
+    #136,
+    #297ce8 48%,
+    rgb(172, 172, 172)
+  );
 }
 
-.login-button:hover {
-  background-color:rgb(113, 124, 159);
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-  .App {
-    text-align: center;
-    color: white;
-    background-image: linear-gradient(79deg, #136, #297ce8 48%, rgb(185, 185, 185));
-  }
+.login-img {
+  padding-right: 100px;
+}
 
-  .auth-form-container, .login-form, .register-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* media queries */
-  
-  @media screen and (min-width: 600px) {
-    .auth-form-container {
-      padding: 5rem;
-      border: 1px solid white;
-      border-radius: 10px;
-      margin: 0.5rem;
-      width: 600px;
-    }
-  }
-  
-  label {
-    text-align: left;
-    padding: 0.25rem 0;
-  }
-  
-  input {
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border: none;
+button:hover {
+  background-color: rgb(238, 246, 79);
+}
+
+.App {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+    79deg,
+    #136,
+    #297ce8 48%,
+    rgb(172, 172, 172)
+  );
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* media queries */
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
     border-radius: 10px;
+    margin: 0.5rem;
+    width: 700px;
   }
-  
-  button {
-    border: none;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #7439db;
-  }
-  
-  .link-btn {
-    background: none;
-    color: white;
-    text-decoration: underline;
-  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #0a0a09;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
