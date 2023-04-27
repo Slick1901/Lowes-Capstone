@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Login } from "../Pages/Login";
-import Register from "../Pages/Register";
+// import Register from "../Pages/Register";
+import Reg from "../Pages/Register";
 import Nav from "../Components/Nav";
 import Footer from "./footer";
 import "../Login.css";
@@ -13,7 +14,7 @@ function Logreg() {
   };
 
   return (
-    <div>
+    <div className="logreg">
       <Nav />
       <div className="login-container">
         <div className="login-img">
@@ -24,7 +25,7 @@ function Logreg() {
             <Login onFormSwitch={toggleForm} />
           ) :
             (
-            <Register onFormSwitch={toggleForm} />
+            <Reg onFormSwitch={toggleForm} />
           )}
         </div>
       </div>

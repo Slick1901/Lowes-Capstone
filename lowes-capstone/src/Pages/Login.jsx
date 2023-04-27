@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import "../Login.css";
-import Axios from 'axios';
+import Axios from "axios";
+
 export const Login = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -10,25 +10,24 @@ export const Login = (props) => {
     console.log(email);
   };
 
-  const [loginStatus, setLoginStatus] = useState("")
+  const [loginStatus, setLoginStatus] = useState("");
 
-  const login = () =>{
-    Axios.post('http://localhost:3001/login', {
+  const login = () => {
+    Axios.post("http://localhost:3001/login", {
       email: email,
       password: password,
-    }).then((response)=>{
-      
-      if(response.data.message){
-        setLoginStatus(response.data.message)
-      } else{
-        setLoginStatus(response.data[0].email)
+    }).then((response) => {
+      if (response.data.message) {
+        setLoginStatus(response.data.message);
+      } else {
+        setLoginStatus(response.data[0].email);
       }
-      console.log(response.data)
-    })
-  }
+      console.log(response.data);
+    });
+  };
 
   return (
-      <>
+    <>
       <div className="auth-form-container">
         <h2>Login</h2>
         <form className="login-form" onSubmit={handleSubmit}>
@@ -50,7 +49,7 @@ export const Login = (props) => {
             id="password"
             name="password"
           />
-         <button onClick={login}>Login</button>
+          <button onClick={login}>Login</button>
         </form>
       </div>
       <h1>{loginStatus}</h1>
