@@ -2,6 +2,27 @@
     height: 100vh;
     width: 48vw
 }
+.my-card {
+    margin: 0 auto 10px auto;
+    width: calc(33.33% - 20px);
+  }
+  
+  .row-cols-1 > * {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about-header {
+    margin: 30px 0; 
+  }
+  .members-title h1{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+  }
+
 
 /* media queries  for responsiveness*/
 
@@ -51,4 +72,16 @@
      
     }
   }
+
+  @media (max-width: 1000px) {
+  .my-card {
+    width: calc(60% - 20px);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .my-card {
+    width: calc(100% - 20px);
+  }
+}
     
