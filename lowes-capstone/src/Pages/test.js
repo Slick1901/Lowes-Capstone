@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Axios from 'axios'
-
-
+import Axios from 'axios';
 
 function Test1() {
     const [emailReg, setEmailReg] = useState("")
