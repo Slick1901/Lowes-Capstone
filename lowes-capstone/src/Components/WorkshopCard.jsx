@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 // import data from './virtualCardData.json'
-import './Manny.css'
+import './WorkshopCard.css'
 import {
     MDBCard,
     MDBCardBody,

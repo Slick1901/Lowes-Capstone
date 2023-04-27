@@ -2,12 +2,10 @@ import React from 'react';
 import Card from '../Components/Card';
 // import logo from '../we-are.jpeg'
 import data from '../Components/cardData.json'
-import data2 from '../Components/virtualCardData.json'
-import VirtualCard from '../Components/VirtualCard';
 import './Home.css'
 import Footer from '../Components/footer';
 import Hero from '../Components/Hero';
-import Manny from '../Components/Manny';
+import WorkshopCard from '../Components/WorkshopCard';
 import WorkshopInfo from '../Components/WorkshopInfo';
 
 function Home(item) {
@@ -21,7 +19,7 @@ function Home(item) {
         <h3>{item.category}</h3>
         <div>
             {/* <Card props = {data} width='100%'/> */}
-            <Manny props={data}/>
+            <WorkshopCard props={data}/>
         </div>
         </section>
         {/* <section className='section'>
@@ -45,8 +43,6 @@ function Home(item) {
             <Card props = {data} width='100%'/>
         </div>
         </section>
-
-            {/* <VirtualCard /> */}
             </div>
 
             <Footer />
