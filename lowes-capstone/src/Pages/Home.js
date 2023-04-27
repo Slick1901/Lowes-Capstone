@@ -7,10 +7,12 @@ import Footer from '../Components/footer';
 import Hero from '../Components/Hero';
 import WorkshopCard from '../Components/WorkshopCard';
 import WorkshopInfo from '../Components/WorkshopInfo';
+import Nav from '../Components/Nav';
 
 function Home(item) {
   return (
     <div >
+      <Nav />
         <Hero />
 <WorkshopInfo />
         <div className={classes.workshopContainer}>
