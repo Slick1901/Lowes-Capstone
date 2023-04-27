@@ -9,8 +9,12 @@ import {
     MDBRow,
     MDBBtn,
     MDBIcon,
-    MDBCol
+    MDBCol,
+    MDBTypography,
+    MDBContainer,
   } from 'mdb-react-ui-kit';
+
+
 export default function Founders(){
 return (
 <main>
@@ -104,6 +108,76 @@ return (
       <MDBIcon fab icon='linkedin-in' />
     </MDBBtn>
     </MDBCardBody>
+  </MDBCard>
+</MDBCol>
+<MDBCol className='hover-shadow'>
+  <MDBCard className='h-100'>
+  <MDBContainer>
+      <section>
+        <MDBTypography
+          tag="h3"
+          className="text-center mb-4 pb-2 text-primary fw-bold"
+        >
+          FAQ's
+        </MDBTypography>
+        <p className="text-center mb-5">
+          Find the answers for the most frequently asked questions below
+        </p>
+
+        <MDBRow>
+          <MDBCol md="6" lg="4" className="mb-4">
+            <MDBTypography tag="h6" className="mb-3 text-primary">
+              <MDBIcon far icon="paper-plane text-primary pe-2" /> Do you offer any accommodations for disabled participants?
+            </MDBTypography>
+            <p>
+             
+              We strive to make our workshops accessible to all participants and do make neccesary accommodations. 
+            </p>
+          </MDBCol>
+          <MDBCol md="6" lg="4" className="mb-4">
+            <MDBTypography tag="h6" className="mb-3 text-primary">
+              <MDBIcon fas icon="pen-alt text-primary pe-2" /> Can I bring my children to the workshops?
+            </MDBTypography>
+            <p>
+              Children are welcome to attend our workshops with a parent or guardian. We also offer Workshops for them.
+            </p>
+          </MDBCol>
+          <MDBCol md="6" lg="4" className="mb-4">
+            <MDBTypography tag="h6" className="mb-3 text-primary">
+              <MDBIcon fas icon="user text-primary pe-2" />  Where are your workshops held?
+            </MDBTypography>
+            <p>
+            Our workshops are held at various locations depending on the workshop topic and availability of the venue.
+            </p>
+          </MDBCol>
+          <MDBCol md="6" lg="4" className="mb-4">
+            <MDBTypography tag="h6" className="mb-3 text-primary">
+              <MDBIcon fas icon="rocket text-primary pe-2" />  Are your workshops free?
+            </MDBTypography>
+            <p>
+            Our workshops are free, but we appreciate donations to help us continue offering our services to the community.
+            </p>
+          </MDBCol>
+          <MDBCol md="6" lg="4" className="mb-4">
+            <MDBTypography tag="h6" className="mb-3 text-primary">
+              <MDBIcon fas icon="home text-primary pe-2" /> What is the purpose of your organization?
+            </MDBTypography>
+            <p>
+             
+              Our organization aims to help disabled people, children, and women with their home improvement needs by offering in-person workshops and training sessions to enhance their knowledge and skills.
+            </p>
+          </MDBCol>
+          <MDBCol md="6" lg="4" className="mb-4">
+            <MDBTypography tag="h6" className="mb-3 text-primary">
+              <MDBIcon fas icon="book-open text-primary pe-2" />  What kind of workshops do you offer?
+            </MDBTypography>
+            <p>
+            We offer a variety of workshops on topics such as basic home repairs, plumbing, electrical work, carpentry, and gardening. Our workshops are designed to be accessible to everyone, regardless of their skill level.
+            </p>
+          </MDBCol>
+        </MDBRow>
+      </section>
+    </MDBContainer>
   </MDBCard>
 </MDBCol>
 </MDBRow>

@@ -1,14 +1,31 @@
 import React, { useState } from "react";
 // import "../Login.css";
-
+import Axios from 'axios';
 export const Login = (props) => {
   const [email, setEmail] = useState("");
-  const [pass, setPass] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(email);
   };
+
+  const [loginStatus, setLoginStatus] = useState("")
+
+  const login = () =>{
+    Axios.post('http://localhost:3001/login', {
+      email: email,
+      password: password,
+    }).then((response)=>{
+      
+      if(response.data.message){
+        setLoginStatus(response.data.message)
+      } else{
+        setLoginStatus(response.data[0].email)
+      }
+      console.log(response.data)
+    })
+  }
 
   return (
       <>
@@ -26,14 +43,14 @@ export const Login = (props) => {
           />
           <label htmlFor="password">Password</label>
           <input
-            value={pass}
-            onChange={(e) => setPass(e.target.value)}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             type="password"
             placeholder="********"
             id="password"
             name="password"
           />
-          <button type="submit">Log In</button>
+         <button onClick={login}>Login</button>
         </form>
         <button
           className="link-btn"
@@ -42,6 +59,7 @@ export const Login = (props) => {
           Don't have an account? Register here.
         </button>
       </div>
+      <h1>{loginStatus}</h1>
     </>
   );
 };
