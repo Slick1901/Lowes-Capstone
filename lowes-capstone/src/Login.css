@@ -5,13 +5,13 @@
     align-items: center;
     justify-content: center;
     color: white;
-    background-image: linear-gradient(79deg, #136, #297ce8 48%, #fff);
+    background-image: linear-gradient(79deg, #136, #297ce8 48%,rgb(185, 185, 185));
   }
   
   .App {
     text-align: center;
     color: white;
-    background-image: linear-gradient(79deg, #136, #297ce8 48%, #fff);
+    background-image: linear-gradient(79deg, #136, #297ce8 48%, rgb(185, 185, 185));
   }
 
   .auth-form-container, .login-form, .register-form {
