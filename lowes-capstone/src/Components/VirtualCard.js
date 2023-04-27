@@ -1,21 +1,19 @@
 import React from 'react'
-import ImageGallery from 'react-image-gallery';
+// import ImageGallery from 'react-image-gallery';
 import data from './virtualCardData.json'
 import 'react-image-gallery/styles/css/image-gallery.css'
 import CardButton from './CardButton';
+import './VirtualCard.css';
 
 
 
-const VirtualCard = () => {
+const VirtualCard = (items) => {
     console.log(data)
   return (
-data.map((item) => {
-    return(<div>
-<ImageGallery items={data} />
-<CardButton />
-    </div>)
-})
-    
+<div>
+  {/* <ImageGallery items={data} /> */}
+ <a href={items.address}><CardButton /></a> 
+     </div>
 
   )
 }
