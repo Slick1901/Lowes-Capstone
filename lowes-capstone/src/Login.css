@@ -1,13 +1,38 @@
 .application  {
     text-align: center;
+    font-family:monospace;
+    font-size:larger;
     display: flex;
     min-height: 100vh;
+    margin-left: 300px;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-image: linear-gradient(79deg, #136, #297ce8 48%,rgb(185, 185, 185));
+    color: black;
   }
   
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .login-img {
+    margin-right: 20px;
+  }
+  
+  .login-form {
+    width: 60%;
+  }
+  
+.input-field {
+  width: 180%;
+}
+
+.login-button:hover {
+  background-color:rgb(113, 124, 159);
+}
+
   .App {
     text-align: center;
     color: white;
@@ -27,6 +52,7 @@
       border: 1px solid white;
       border-radius: 10px;
       margin: 0.5rem;
+      width: 600px;
     }
   }
   
