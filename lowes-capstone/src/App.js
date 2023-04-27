@@ -9,7 +9,8 @@ import Home from "./Pages/Home";
 import AboutPage from "./Pages/About";
 import Layout from "./Pages/Layout";
 import Logreg from "./Components/Logreg";
-
+import Test1 from "./Pages/test";
+import EventSignUpPage from "./Pages/EventSignUp";
 function App() {
  
 
@@ -22,6 +23,8 @@ function App() {
           {/* <Route path="/" element={<Layout />}>  */}
           <Route index element={<Home />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="/Test1" element={<Test1 />} />
+          <Route path="/EventSignUpPage" element={<EventSignUpPage />} />
           <Route path="/login" element={<Logreg />}  />
           {/* <Route path="/register" element={<Register onFormSwitch={toggleForm} />} /> */}
           {/* </Route> */}
