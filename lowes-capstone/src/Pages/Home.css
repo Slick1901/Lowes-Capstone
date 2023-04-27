@@ -1,4 +1,11 @@
+/* .page{
+    background-color: whitesmoke;
+} */
 
+.hey{
+    width: 80%;
+    margin: 0 auto;
+}
 
 .cardsWrapper {
     grid-column: center-start / -1;
@@ -15,8 +22,12 @@
     place-content: center;
     background-color: #6a9be4;
     font-size: 1.5rem;
-    height: auto;
+    height: 100%;
     min-width: 20rem;
+}
+
+.card-body{
+    height: 10rem;
 }
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './cardData.json'
+import data from './virtualCardData.json'
 import CardButton from './CardButton';
 import './Card.css'
 import {
@@ -29,13 +29,7 @@ export default function Card() {
           <MDBCardTitle>
           {item.title}
           </MDBCardTitle>
-          <MDBCardText>
-          {item.date}
-          </MDBCardText>
-          <h5>
-          {item.time}
-          </h5>
-          <CardButton>Learn More</CardButton>
+          <CardButton />
         </MDBCardBody>
       </MDBCard>
       </div>)

@@ -3,49 +3,52 @@
         "id": 1,
         "image": "https://mobileimages.lowes.com/marketingimages/809f657a-da6e-4973-bae0-cb2cf66a71c3/ht-install-a-kitchen-faucet-removefaucet.jpg",
         "title": "How to Replace a Faucet",
-        "text": "djbbdsjbkjc",
+        "text": "This workshop teaches you step by step how to replace kitchen, sink, and bathtub faucets. A Home Improvement staff will walk you through a live demo and afterwards give you the opportunity to practice (with assistance of course).",
         "category": "Women Empowerment",
         "location": "in-store",
         "date": "07/01/23",
         "address": "Home Improvement Store",
         "difficulty-level": "medium",
-        "time": "10:00 am - 11:30 am"
+        "time": "10:00 am - 12:00 pm",
+        "categoryInfo": "Workshops led by women for women. Suitable for women of all ages and backgrounds to learn home improvement skills in similar company. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement. "
     },
     {
         "id": 2,
         "image": "https://www.moneypit.com/wp-content/uploads/2017/01/drywall_spackle_repair_sand_sanding_shutterstock_125692391-400x300.jpg",
         "title": "Dry Wall Repair",
-        "text": "djbbdsjbkjc",
-        "category": "Women Empowerment",
+        "text": "Holes in the walls of your rental? No worries! This workshop teaches you how to repair small holes in drywall. A Home Improvement staff will walk you through a live demo while you practice in real time (with assistance of course).",
         "location": "in-person",
         "date": "09/30/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "10:00 am - 11:30 pm"
+        "time": "10:00 am - 11:30 pm",
+        "categoryInfo": "Workshops led by women for women. Suitable for women of all ages and backgrounds to learn home improvement skills in similar company. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement. "
     },
     {
         "id": 3,
         "image": "https://www.thespruce.com/thmb/-2tM8siGy06h6lyJErZy1oeG6do=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/removable-diy-kitchen-backsplashes-3017311-hero-92d327c3af514751b27642b2430325af.jpg",
         "title": "Tile Backsplash Install",
-        "text": "djbbdsjbkjc",
+        "text": "Wanting to learn how to install backsplash in your kitchen? Look no further! With the help of live demos from trained staff and the opportunity to DIY, you'll have all the know-how to make your kitchen pop.",
         "category": "Women Empowerment",
         "location": "in-person",
         "date": "10/14/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "11:00 am - 12:30 pm"
+        "time": "11:00 am - 12:30 pm",
+        "categoryInfo": "Workshops led by women for women. Suitable for women of all ages and backgrounds to learn home improvement skills in similar company. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement. "
     },
     {
         "id": 4,
         "image": "https://www.familyhandyman.com/wp-content/uploads/2022/07/GettyImages-1268388454-e1658252215366.jpg",
         "title": "Priming and Painting 101",
-        "text": "djbbdsjbkjc",
+        "text": "",
         "category": "Women Empowerment",
         "location": "in-person",
         "date": "11/04/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "11:00 am - 12:00 am"
+        "time": "11:00 am - 12:00 am",
+        "categoryInfo": "Workshops led by women for women. Suitable for women of all ages and backgrounds to learn home improvement skills in similar company. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 5,
@@ -57,7 +60,8 @@
         "date": "05/13/23",
         "address": "Home Improvement Store",
         "difficulty-level": "medium",
-        "time": "10:00 am - 12:00 pm"
+        "time": "10:00 am - 12:00 pm",
+        "categoryInfo": "Desgined for handi-capable community members, these workshops provide one-on-one assistance to those who need special accomodations and is entirely self-paced. Workshops are led by a group of highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement. "
     },
     {
         "id": 6,
@@ -69,7 +73,8 @@
         "date": "08/05/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "10:00 am - 12:30 pm"
+        "time": "10:00 am - 12:30 pm",
+        "categoryInfo": "Desgined for handi-capable community members, these workshops provide one-on-one assistance to those who need special accomodations and is entirely self-paced. Workshops are led by a group of highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 7,
@@ -81,7 +86,8 @@
         "date": "08/05/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "10:00 am - 12:00 pm"
+        "time": "10:00 am - 12:00 pm",
+        "categoryInfo": "Desgined for handi-capable community members, these workshops provide one-on-one assistance to those who need special accomodations and is entirely self-paced. Workshops are led by a group of highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 8,
@@ -93,7 +99,8 @@
         "date": "06/10/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "10:00 am - 12:00 pm"
+        "time": "10:00 am - 12:00 pm",
+        "categoryInfo": "All members of the community are welcome to participate in this set of workshops that aim to teach 'The Basics' of home improvement. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 9,
@@ -105,7 +112,8 @@
         "date": "08/05/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "11:00 am - 12:30 pm"
+        "time": "11:00 am - 12:30 pm",
+        "categoryInfo": "All members of the community are welcome to participate in this set of workshops that aim to teach 'The Basics' of home improvement. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 10,
@@ -117,7 +125,8 @@
         "date": "09/23/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "09:30 am - 11:30 am"
+        "time": "09:30 am - 11:30 am",
+        "categoryInfo": "All members of the community are welcome to participate in this set of workshops that aim to teach 'The Basics' of home improvement. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 11,
@@ -129,7 +138,8 @@
         "date": "11/18/23",
         "address": "Home Improvement Store",
         "difficulty-level": "easy",
-        "time": "12:00 pm - 1pm"
+        "time": "12:00 pm - 1pm",
+        "categoryInfo": "All members of the community are welcome to participate in this set of workshops that aim to teach 'The Basics' of home improvement. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 12,
@@ -141,7 +151,8 @@
         "date": "06/03/23",
         "address": "Home Improvement Store",
         "difficulty-level": "All Ages",
-        "time": "11:00 am - 12:30 pm"
+        "time": "11:00 am - 12:30 pm",
+        "categoryInfo": "Just for the little ones. These workshops are specifically tailored for children of all ages to exercise their unlimited potential and creativity. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement. "
     },
     {
         "id": 13,
@@ -153,7 +164,8 @@
         "date": "07/29/23",
         "address": "Home Improvement Store",
         "difficulty-level": "All Ages",
-        "time": "10:00 am - 11:30 am"
+        "time": "10:00 am - 11:30 am",
+        "categoryInfo": "Just for the little ones. These workshops are specifically tailored for children of all ages to exercise their unlimited potential and creativity. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 14,
@@ -165,7 +177,8 @@
         "date": "08/12/23",
         "address": "Home Improvement Store",
         "difficulty-level": "Ages 5+",
-        "time": "10:00 am - 12:00 pm"
+        "time": "10:00 am - 12:00 pm",
+        "categoryInfo": "Just for the little ones. These workshops are specifically tailored for children of all ages to exercise their unlimited potential and creativity. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     },
     {
         "id": 15,
@@ -177,7 +190,8 @@
         "date": "12/09/23",
         "address": "Home Improvement Store",
         "difficulty-level": "Ages 7+",
-        "time": "10:00 am - 1:00 pm"
+        "time": "10:00 am - 1:00 pm",
+        "categoryInfo": "Just for the little ones. These workshops are specifically tailored for children of all ages to exercise their unlimited potential and creativity. Workshops are led by highly trained and knowledgeable Home Improvement staff. All materials supplied by Home Improvement."
     }
     
 ]
