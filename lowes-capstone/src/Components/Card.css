@@ -1,5 +1,20 @@
-.img-fluid {
+.home .img-fluid {
     height: 15rem;
     width: 20rem;
     object-fit:cover;
 }
+
+.home .card {
+    display: grid;
+    place-content: center;
+    background-color: #6a9be4;
+    font-size: 1.5rem;
+    height: 100%;
+    min-width: 20rem;
+}
+
+
+.home .card-body{
+    height: 10rem;
+}
+
