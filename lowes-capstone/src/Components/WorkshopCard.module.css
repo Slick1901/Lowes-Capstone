@@ -6,16 +6,17 @@ justify-content: center;
 background-color: white;
 border-radius: 0.5rem;
 box-shadow: 1rem .2rem .5rem #486da3;
+margin-bottom: 4rem;
 }
 
 
-.work .card{
+.home .card{
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: red; 
 }
 
-.work .card-body{
+.home .card-body{
     background-color: #6a9be4;
 }
 
@@ -27,7 +28,6 @@ box-shadow: 1rem .2rem .5rem #486da3;
     
     
 }
-
 
 .itemWrapper {
     display: flex;
@@ -45,6 +45,23 @@ box-shadow: 1rem .2rem .5rem #486da3;
     margin: 1rem;
     
 }
+
 .bButtons{
-    margin: 1rem;
+    margin: 0 .5rem;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 799px) {
+    .holder{
+    display:block
+    }
+}
+
+@media screen and (max-width: 480px){
+    .holder{
+    display:block
+    }
 }
