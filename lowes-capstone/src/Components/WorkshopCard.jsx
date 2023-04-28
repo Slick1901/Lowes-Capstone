@@ -63,7 +63,7 @@ return (
           <h5>
           {props.props[itemId].time}
           </h5>
-          <Link to="/login" className={classes.icon}><RegisterButton /></Link>
+          <Link to="/login"><RegisterButton /></Link>
           
         </MDBCardBody>
         <div className={classes.progressButtons}>
