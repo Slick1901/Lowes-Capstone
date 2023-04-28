@@ -84,17 +84,11 @@ export default function Footer() {
                     <strong>Sign up for our newsletter</strong>
                   </p>
                 </MDBCol>
-  
-                {/* <MDBCol md='5' start onChange={handleChange}>
-                  <MDBInput contrast type='text' name='email' label='Email address' className='mb-4' />
-                </MDBCol> */}
                 <NewsLetter/>
                 <p className='errorMessage'>{formErrors.email}</p>
   
                 <MDBCol size="auto">
-                  {/* <MDBBtn outline color='light' type='submit' className='mb-4' >
-                    Subscribe
-                  </MDBBtn> */}
+              
                 </MDBCol>
               </MDBRow>
             </form>
