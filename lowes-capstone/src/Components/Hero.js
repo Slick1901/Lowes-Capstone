@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import {
   MDBBtn
 } from 'mdb-react-ui-kit';
@@ -16,9 +17,9 @@ export default function Hero() {
             <div className='text-white'>
               <h1 className='mb-3'>Home Improvement</h1>
               <h4 className='mb-3'>Empowering communities across America</h4>
-            <MDBBtn outline color='light'>
-                Sign up Now
-            </MDBBtn>
+              <Link to="/about"><MDBBtn outline color='light'>
+                Learn More
+            </MDBBtn></ Link>
             </div>
           </div>
         </div>

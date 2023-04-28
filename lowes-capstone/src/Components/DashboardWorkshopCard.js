@@ -15,7 +15,7 @@ import {
   } from 'mdb-react-ui-kit';
   // import CardButton from './CardButton';
 
-const WorkshopCard = (props) => {
+const DashboardWorkshopCard = (props) => {
     console.log(props)
 
 
@@ -63,7 +63,7 @@ return (
           <h5>
           {props.props[itemId].time}
           </h5>
-          <Link to="/login"><RegisterButton /></Link>
+          <Link to="/EventSignUpPage" className={classes.icon}><RegisterButton /></Link>
           
         </MDBCardBody>
         <div className={classes.progressButtons}>
@@ -85,4 +85,4 @@ return (
 )
 }
 
-export default WorkshopCard
+export default DashboardWorkshopCard
