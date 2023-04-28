@@ -1,4 +1,10 @@
-
+h2{
+    margin: 2.5rem 0;
+    border: double .4rem white;
+    border-radius: 1.5rem;
+    padding: .7rem;
+   
+}
 .workshopContainer{
     width: 90%;
     margin: 0 auto;
@@ -15,7 +21,7 @@
 }  
 
 .section {
-    margin: 5rem 0;
+    margin: 8rem 0;
     display: grid;
     grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
     grid-column: center;
