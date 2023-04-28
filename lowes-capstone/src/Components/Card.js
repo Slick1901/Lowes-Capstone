@@ -26,11 +26,11 @@ export default function Card() {
               <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
             </a>
           </MDBRipple>
-          <MDBCardBody className='rando'>
+          <MDBCardBody>
             <MDBCardTitle>
             {item.title}
             </MDBCardTitle>
-            <CardButton>Learn More</CardButton>
+            <a href={item.address} target='blank'><CardButton>Learn More</CardButton></a>
           </MDBCardBody>
         </MDBCard>
         </div>

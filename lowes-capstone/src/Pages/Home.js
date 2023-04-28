@@ -7,10 +7,12 @@ import Footer from '../Components/footer';
 import Hero from '../Components/Hero';
 import WorkshopCard from '../Components/WorkshopCard';
 import WorkshopInfo from '../Components/WorkshopInfo';
+import Nav from '../Components/Nav';
 
 function Home(item) {
   return (
     <div >
+      <Nav />
         <Hero />
 <WorkshopInfo />
         <div className={classes.workshopContainer}>
@@ -33,7 +35,6 @@ function Home(item) {
         <h3>Women Empowerment Workshops</h3>
         <div class='cardsWrapper'>
             <Manny props={data} workshopDetail="Deborah"/>
-
         </div>
         </section> */}
         {/* <h3>Virtual Workshops</h3> */}
