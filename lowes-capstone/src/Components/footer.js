@@ -9,7 +9,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import './footer.css'
-
+import NewsLetter from './NewsLetter';
 export default function Footer() {
 
     const initialValues = { email: ""}
@@ -85,15 +85,16 @@ export default function Footer() {
                   </p>
                 </MDBCol>
   
-                <MDBCol md='5' start onChange={handleChange}>
+                {/* <MDBCol md='5' start onChange={handleChange}>
                   <MDBInput contrast type='text' name='email' label='Email address' className='mb-4' />
-                </MDBCol>
+                </MDBCol> */}
+                <NewsLetter/>
                 <p className='errorMessage'>{formErrors.email}</p>
   
                 <MDBCol size="auto">
-                  <MDBBtn outline color='light' type='submit' className='mb-4' >
+                  {/* <MDBBtn outline color='light' type='submit' className='mb-4' >
                     Subscribe
-                  </MDBBtn>
+                  </MDBBtn> */}
                 </MDBCol>
               </MDBRow>
             </form>

@@ -72,6 +72,21 @@ app.post('/events', (req, res) => {
     );
   });  
 
+  app.post('/news', (req, res)=>{
+	const email = req.body.email;
+	
+	db.query(
+		"INSERT INTO news (email) VALUES (?)",
+		[email],
+		(err, result)=>{
+			if (err) {
+				console.log(err);
+			} else {
+				console.log(result);
+			}
+		}
+	);
+});
 app.listen(3001, ()=>{
 	console.log("running server")
 })
