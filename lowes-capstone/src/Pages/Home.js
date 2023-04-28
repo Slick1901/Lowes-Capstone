@@ -30,7 +30,6 @@ function Home(item) {
         </div>
         </section>
             </div>
-
             <Footer />
     </div>
   )
