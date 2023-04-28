@@ -24,20 +24,6 @@ function DashboardHome(item) {
             <DashboardWorkshopCard props={data}/>
         </div>
         </section>
-        {/* <section className='section'>
-        <h3>Handi-capable Workshops</h3>
-        <div class='cardsWrapper'>
-            <Manny props={data} workshopDetail="Is"/>
-
-        </div>
-        </section>
-        <section className='section'>
-        <h3>Women Empowerment Workshops</h3>
-        <div class='cardsWrapper'>
-            <Manny props={data} workshopDetail="Deborah"/>
-        </div>
-        </section> */}
-        {/* <h3>Virtual Workshops</h3> */}
         <section className={classes.section}>
        <h2 className='workshopCategory'>Virtual Workshops</h2>
          <div className={classes.cardsWrapper}>
