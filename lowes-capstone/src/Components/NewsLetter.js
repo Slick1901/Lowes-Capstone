@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import  Axios  from "axios";
+import "./news.css";
 
 const NewsLetter = () => {
   const [email, setemail] = useState('');
@@ -13,13 +14,13 @@ const NewsLetter = () => {
   }
 
 return (
-<form className="register-form">
-<input type="text" onChange={(e)=>{
+<form className="register-form1">
+<input className='register-form1' type="text" onChange={(e)=>{
   setemail(e.target.value);
 }}
   placeholder="Enter Email address"
 />
-<button onClick={newss}>Sign Up</button>
+<button  onClick={newss}>Sign Up</button>
 </form>
  );
 }

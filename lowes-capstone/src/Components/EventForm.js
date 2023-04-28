@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import  Axios  from "axios";
-
+import './eventform.css'
 const EventForm = () => {
   const [name, setName] = useState('');
   const [event, setEvent] = useState('');
@@ -18,14 +18,14 @@ const EventForm = () => {
     }
 
     return (
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         <div className="auth-form-container">
-          <h2>Register</h2>
-          <form className="register-form">
+          <h2>Register for an event </h2>
+          <form className="register-form2">
             <label>Full Name</label>
             <input type="text" onChange={(e)=>{
               setName(e.target.value);
             }}
-              placeholder="full Name"
             />
             <label>Event</label>
             <input  type="text" onChange={(e)=>{
@@ -50,6 +50,7 @@ const EventForm = () => {
     
     <button onClick={eventregister}>Register</button>
           </form>
+        </div>
         </div>
       );
     }
