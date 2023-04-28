@@ -2,10 +2,10 @@
 
 import React, { useState } from "react";
 import { Login } from "../Pages/Login";
-import Reg from "../Pages/Register";
 import Nav from "../Components/Nav";
 import Footer from "./footer";
 import "../Login.css";
+import Registration from "../Pages/Registration";
 
 function Logreg() {
   const [currentForm, setCurrentForm] = useState("login");
@@ -26,7 +26,7 @@ function Logreg() {
             <Login onFormSwitch={toggleForm} />
           ) :
             (
-            <Reg onFormSwitch={toggleForm} />
+            <Registration onFormSwitch={toggleForm} />
           )}
         </div>
       </div>
