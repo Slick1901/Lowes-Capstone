@@ -17,11 +17,11 @@ const db = mysql.createConnection({
 app.post('/register', (req, res)=>{
 	const email = req.body.email;
 	const password = req.body.password;
-    const fullname = req.body.fullname;
+
 
 	db.query(
-		"INSERT INTO users (email, password, fullname) VALUES (?,?,?)",
-		[email, password, fullname],
+		"INSERT INTO users (email, password) VALUES (?,?)",
+		[email, password],
 		(err, result)=>{
 			if (err) {
 				console.log(err);
@@ -51,7 +51,42 @@ app.post('/login', (req,res)=>{
 	);
 }) 
 
+app.post('/events', (req, res) => {
+    const name = req.body.name;
+    const event = req.body.event;
+    const date = req.body.date;
+    const location= req.body.location;
+  console.log("register was called")
+    db.query(
+      "INSERT INTO events (name, event, date, location) VALUES (?,?,?,? )",
+      [name, event, date, location],
+      (err, result) => {
+        if (err) {
+          console.log("event inserting: error " + err); 
+          res.status(500).send({ message: "Internal server error" });
+        } else {
+          console.log("event inserting success : " + result);
+          res.status(200).send({ message: "Event registered successfully" });
+        }
+      }
+    );
+  });  
 
+  app.post('/news', (req, res)=>{
+	const email = req.body.email;
+	
+	db.query(
+		"INSERT INTO news (email) VALUES (?)",
+		[email],
+		(err, result)=>{
+			if (err) {
+				console.log(err);
+			} else {
+				console.log(result);
+			}
+		}
+	);
+});
 app.listen(3001, ()=>{
 	console.log("running server")
 })
