@@ -4,7 +4,7 @@ import Card from '../Components/Card';
 import data from '../Components/cardData.json'
 import VirtualCard from '../Components/VirtualCard';
 import './Home.css'
-import Footer from '../Components/footer';
+
 
 function Home() {
   return (
@@ -35,7 +35,7 @@ function Home() {
         <h3>Virtual Workshops</h3>
             <VirtualCard />
 
-            <Footer />
+            
     </div>
   )
 }

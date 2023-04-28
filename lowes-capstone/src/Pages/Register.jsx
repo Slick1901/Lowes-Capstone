@@ -12,16 +12,12 @@ class Register extends React.Component {
       score: 0,
       errorMessage: "",
     };
-
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handlePasswordChange = this.handlePasswordChange.bind(this);
   }
-
   handleSubmit(e) {
     e.preventDefault();
-
     const { name, email, password } = this.state;
-
     axios
       .post("/register", { name, email, password })
       .then((response) => {
@@ -33,13 +29,11 @@ class Register extends React.Component {
         this.setState({ errorMessage: "Registration failed" });
       });
   }
-
   handlePasswordChange(e) {
     const password = e.target.value;
     const { score } = zxcvbn(password);
     this.setState({ password: password, score: score });
   }
-
   render() {
     let scoreMessage;
     switch (this.state.score) {
@@ -63,7 +57,6 @@ class Register extends React.Component {
         scoreMessage = "";
         break;
     }
-
     return (
       <div className="auth-form-container">
         <h2>Register</h2>
@@ -111,5 +104,4 @@ class Register extends React.Component {
     );
   }
 }
-
 export default Register;

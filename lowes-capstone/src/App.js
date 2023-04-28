@@ -7,8 +7,8 @@ import Footer from "./Components/footer";
 import Home from "./Pages/Home";
 import AboutPage from "./Pages/About";
 import Layout from "./Pages/Layout";
-import Logreg from "./Components/Logreg";
-import axios from "axios";
+// import Logreg from "./Components/Logreg";
+// import axios from "axios";
 
 
 function App() {
