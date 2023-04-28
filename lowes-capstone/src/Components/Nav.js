@@ -30,7 +30,7 @@ export default class Nav extends Component {
                </ul>
                <ul className="navbar-nav align-items-center">
                  <li className="nav-item ml-5">
-                    <Link to="/Test1" className="nav-link">
+                    <Link to="/register" className="nav-link">
                       register
                     </Link>
                  </li>

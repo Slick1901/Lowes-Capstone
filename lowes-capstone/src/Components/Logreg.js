@@ -1,6 +1,7 @@
+//Login Page
+
 import React, { useState } from "react";
 import { Login } from "../Pages/Login";
-// import Register from "../Pages/Register";
 import Reg from "../Pages/Register";
 import Nav from "../Components/Nav";
 import Footer from "./footer";
@@ -35,3 +36,5 @@ function Logreg() {
 }
 
 export default Logreg;
+
+
