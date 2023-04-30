@@ -10,7 +10,8 @@
     #136,
     #297ce8 48%,
     rgb(172, 172, 172)
-  )
+  );
+  background-size: cover;
 }
 
 .login-container {
@@ -21,7 +22,7 @@
 }
 
 .login-img {
-  padding-right: 100px;
+  padding-right: 30px;
 }
 
 .login-img2 {
@@ -74,22 +75,34 @@
 }
 
 
-.authForm-container,
-.login-form,
-.register-form {
+
+.login-form {
   display: flex;
   flex-direction: column;
 }
 
-/* media queries */
+/*Media queries*/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 610px) {
+  .authForm-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    width: 500px;
+    margin-left: 150px;
+  }
+}
+
+
+@media screen and (min-width: 720px) {
   .authForm-container {
     padding: 5rem;
     border: 1px solid white;
     border-radius: 10px;
     margin: 0.5rem;
     width: 700px;
+    margin-left: 150px;
   }
 }
 
@@ -120,4 +133,50 @@ input {
   background: none;
   color: white;
   text-decoration: underline;
-}
+} 
+
+
+/* for mobile devices */
+
+@media screen and (max-width: 899px) {
+  .regForm-container {
+    padding: 2rem;
+    width: 80%;
+  }
+
+  .login-container {
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .login-img {
+    display: none;
+  }
+
+  .login-img2 {
+    display: none;
+  }
+};
+
+/* for laptop devices */
+@media screen and (max-width: 900px) and (min-width: 1020px) {
+  .regForm-container {
+    padding: 2rem;
+    width: 80%;
+  }
+
+  .login-container {
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .login-img {
+    display: none;
+  }
+
+  .login-img2 {
+    display: none;
+  }
+};
