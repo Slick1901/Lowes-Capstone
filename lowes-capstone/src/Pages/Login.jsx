@@ -28,7 +28,7 @@ export const Login = (props) => {
 
   return (
     <>
-      <div className="auth-form-container">
+      <div className="authForm-container">
         <h2>Login</h2>
         <form className="login-form" onSubmit={handleSubmit}>
           <label htmlFor="email">Email</label>
@@ -49,7 +49,7 @@ export const Login = (props) => {
             id="password"
             name="password"
           />
-          <button onClick={login}>Login</button>
+          <button className="logButton" onClick={login}>Login</button>
         </form>
       </div>
       <h1>{loginStatus}</h1>

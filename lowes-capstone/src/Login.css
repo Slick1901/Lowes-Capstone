@@ -25,11 +25,30 @@
 }
 
 .login-img2 {
-width: 100%;
+  padding-right: 100px;
 }
 
-button:hover {
+.logButton:hover {
+  background-color: #3194fe;
+  padding: 2px 1px;
+  height: 40px;
+}
+
+
+.regButton {
+  border: none;
   background-color: rgba(163, 163, 163, 0.845);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #0a0a09;
+  
+}
+
+.regButton:hover {
+  background-color: #3194fe;
+  padding: 2px 1px;
+  height: 40px;
 }
 
 .App {
@@ -44,7 +63,18 @@ button:hover {
 }
 
 
-.auth-form-container,
+.regForm-container {
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+  width: 700px;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.authForm-container,
 .login-form,
 .register-form {
   display: flex;
@@ -54,7 +84,7 @@ button:hover {
 /* media queries */
 
 @media screen and (min-width: 600px) {
-   .auth-form-container {
+  .authForm-container {
     padding: 5rem;
     border: 1px solid white;
     border-radius: 10px;
@@ -75,13 +105,9 @@ input {
   border-radius: 10px;
 }
 
-.input-reg {
-  margin-right: 20px;
-}
-
-button {
+.logButton {
   border: none;
-  background-color: white;
+  background-color: rgba(163, 163, 163, 0.845);
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -89,7 +115,8 @@ button {
 }
 
 .button-reg {
-  margin-left: 20px;
+  /* margin-left: 50px; */
+
 }
 
 .link-btn {
