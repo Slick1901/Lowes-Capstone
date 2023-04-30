@@ -10,7 +10,7 @@
     #136,
     #297ce8 48%,
     rgb(172, 172, 172)
-  );
+  )
 }
 
 .login-container {
@@ -114,10 +114,7 @@ input {
   color: #0a0a09;
 }
 
-.button-reg {
-  /* margin-left: 50px; */
 
-}
 
 .link-btn {
   background: none;
