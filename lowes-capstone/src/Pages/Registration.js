@@ -22,32 +22,36 @@ function Registration() {
       <div>
         <Nav />
       </div>
+      <div className="login-container">
       <div className="login-img2">
         <img
           src={process.env.PUBLIC_URL + "/images/LogIn.png"}
-          style={{ width: "450px", height: "auto" }}
+          style={{ width: "450px", height: "450px" }}
         />
       </div>
-      <div className="registration">
+      <div className="regForm-container">
         <h1>Registration</h1>
         <label>Email</label>
-        <input 
-          type="text"
+        <input className="input-reg"
+          type="email"
           onChange={(e) => {
             setEmailReg(e.target.value);
           }}
         />
         <label>Password</label>
-        <input 
+        <input className="input-reg"
           type="password"
           onChange={(e) => {
             setPasswordReg(e.target.value);
           }}
         />
-        <button className="button-reg" onClick={register}>Sign-Up</button>
-        <Footer />
+        <button className="regButton" onClick={register}>Sign-Up</button>
       </div>
-    </div>
+      <div>
+      </div>
+      </div>
+      <Footer />
+      </div>
   );
 }
 export default Registration;
