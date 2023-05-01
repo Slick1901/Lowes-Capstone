@@ -52,7 +52,6 @@ export const Login = (props) => {
           <button className="logButton" onClick={login}>Login</button>
         </form>
       </div>
-      <h1>{loginStatus}</h1>
     </>
   );
 };

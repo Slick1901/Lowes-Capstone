@@ -55,12 +55,7 @@
 .App {
   text-align: center;
   color: white;
-  background-image: linear-gradient(
-    79deg,
-    #136,
-    #297ce8 48%,
-    rgb(172, 172, 172)
-  );
+ background-color: #1B2B86;
 }
 
 
