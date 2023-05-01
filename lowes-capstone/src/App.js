@@ -6,6 +6,7 @@ import AboutPage from "./Pages/About";
 import Logreg from "./Components/Logreg";
 import EventSignUpPage from "./Pages/EventSignUp";
 import Registration from "./Pages/Registration";
+import Products from './Pages/Products.js';
 function App() {
  
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="/Products" element={<Products/>} />
           <Route path="/register" element={<Registration />} />
           <Route path="/EventSignUpPage" element={<EventSignUpPage />} />
           <Route path="/login" element={<Logreg />}  />
