@@ -29,6 +29,11 @@ export default class Nav extends Component {
               Register
             </Link>
           </MenuItem>
+          <MenuItem>
+            <Link to="/Contact" className="nav-link">
+             Contact
+            </Link>
+          </MenuItem>
         </MenuItems>
       </NavWrapper>
     );

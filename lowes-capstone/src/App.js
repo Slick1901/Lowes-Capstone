@@ -20,7 +20,7 @@ function App() {
           <Route path="/EventCart" element={<Products/>} />
           <Route path="/register" element={<Registration />} />
           <Route path="/Dashboard" element={<DashboardHome />} />
-          <Route path="/EventSignUpPage" element={<EventSignUpPage />} />
+          <Route path="/Contact" element={<EventSignUpPage />} />
           <Route path="/login" element={<Logreg />}  />
         </Routes>
         </BrowserRouter>
