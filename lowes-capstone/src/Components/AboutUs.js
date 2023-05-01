@@ -21,8 +21,8 @@ const AboutPage = () => {
       <h1 className="about-header">About Us</h1>
       
       <MDBRow className='row-cols-1 row-cols-md-4 g-4'>
-      <MDBCard style={{ backgroundColor: '#6CB4EE', color: 'white' }} className='text-body mb-3 my-card' >
-        <MDBCardHeader>Who We Are?</MDBCardHeader>
+      <MDBCard  style={{ backgroundColor: '#ffffff', color: 'black' }} className='text-body mb-3 my-card' >
+        <MDBCardHeader  style={{ fontSize: '1.5rem' }}>Who We Are?</MDBCardHeader>
         <MDBCardBody>
           <MDBCardText>
           <p style={{ fontSize: '1.3rem' }}>
@@ -33,8 +33,8 @@ const AboutPage = () => {
           </MDBCardText>
         </MDBCardBody>
       </MDBCard>
-<MDBCard style={{ backgroundColor: '#6CB4EE', color: 'white' }} className='text-body mb-3 my-card'>
-        <MDBCardHeader>How We Started?</MDBCardHeader>
+<MDBCard  style={{ backgroundColor: '#ffffff', color: 'black' }} className='text-body mb-3 my-card'>
+        <MDBCardHeader  style={{ fontSize: '1.5rem' }}>How We Started?</MDBCardHeader>
         <MDBCardBody>
       
           <MDBCardText>
@@ -46,8 +46,8 @@ const AboutPage = () => {
           </MDBCardText>
         </MDBCardBody>
       </MDBCard>
-  <MDBCard style={{ backgroundColor: '#6CB4EE', color: 'white' }} className='text-body mb-3 my-card'>
-        <MDBCardHeader>Who We Count On?</MDBCardHeader>
+  <MDBCard  style={{ backgroundColor: '#ffffff', color: 'black' }} className='text-body mb-3 my-card'>
+        <MDBCardHeader style={{ fontSize: '1.5rem' }}>Who We Count On?</MDBCardHeader>
         <MDBCardBody>
       
           <MDBCardText>

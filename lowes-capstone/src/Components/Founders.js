@@ -21,7 +21,7 @@ return (
 
 <MDBRow className='row-cols-3 row-cols-md-3 g-4'>
 <MDBCol className='hover-shadow'>
-  <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white',  }} >
+  <MDBCard className='h-100' style={{ backgroundColor: '#ffffff', color: 'black' }} >
 
 
     <MDBCardImage className='pics'
@@ -43,7 +43,7 @@ return (
   </MDBCard>
 </MDBCol>
 <MDBCol className='hover-shadow'>
-  <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white' }}>
+  <MDBCard className='h-100'style={{ backgroundColor: '#ffffff', color: 'black' }}>
     <MDBCardImage className='pics'
       src='./images/deb.png'
       alt='...'
@@ -53,7 +53,7 @@ return (
       <MDBCardTitle className="member-name">Deborah Case</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Deborah is a front-end developer who contributed to Home Improvement. With skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project. 
+      Deborah is a front-end developer who contributed to Home Improvement. With skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project and also leading the team as team lead. 
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/deborah-case/' target="_blank" role='button'>
@@ -63,7 +63,7 @@ return (
   </MDBCard>
 </MDBCol>
 <MDBCol className='hover-shadow'>
-  <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white' }}>
+  <MDBCard className='h-100' style={{ backgroundColor: '#ffffff', color: 'black' }}>
     <MDBCardImage className='pics'
       src='./images/lindsey.jpg'
       alt='...'
@@ -83,7 +83,7 @@ return (
   </MDBCard>
 </MDBCol>
 <MDBCol className='hover-shadow'>
-  <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white' }}>
+  <MDBCard className='h-100' style={{ backgroundColor: '#ffffff', color: 'black' }}>
     <MDBCardImage className='pics'
       src='./images/chanty.jpg'
       alt='...'
@@ -93,7 +93,7 @@ return (
       <MDBCardTitle className="member-name">Chanthai Phakdy</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Chanthai is a backend developer who contributed to Home Improvement. Using their backend knowledge, Chanthai played a key role in building the backend of the project.
+      Chanthai is a backend developer who contributed to Home Improvement. Using their backend knowledge, Chanthai played a key role in building the backend of the project. Chanthai also assisted with front-end functionality
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/chanthaiphakdy/' target="_blank" role='button'>
@@ -103,7 +103,7 @@ return (
   </MDBCard>
 </MDBCol>
 <MDBCol className='hover-shadow'>
-  <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white' }}>
+  <MDBCard className='h-100' style={{ backgroundColor: '#ffffff', color: 'black' }}>
     <MDBCardImage className='pics'
       src='./images/sincere.jpg'
       alt='...'
@@ -122,10 +122,10 @@ return (
     </MDBCardBody>
   </MDBCard>
 </MDBCol>
-<MDBCol className='hover-shadow'>
-  <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white' }}>
-  <MDBContainer>
-      <section>
+{/* <MDBCol className='hover-shadow'>
+   <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white' }}>
+    <MDBContainer>
+       <section>
         <MDBTypography
           tag="h3"
           className="text-center mb-4 pb-2 text-primary fw-bold"
@@ -188,10 +188,10 @@ return (
             </p>
           </MDBCol>
         </MDBRow>
-      </section>
-    </MDBContainer>
-  </MDBCard>
-</MDBCol>
+      </section> 
+    </MDBContainer>  
+  </MDBCard> 
+</MDBCol> */}
 </MDBRow>
 </main>
 )
