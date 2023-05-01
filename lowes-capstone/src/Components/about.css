@@ -3,6 +3,7 @@
     width: 29.9vw
 }
 .my-card {
+ 
     margin: 0 auto 10px auto;
     width: calc(33.33% - 20px);
   }

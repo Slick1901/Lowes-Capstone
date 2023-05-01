@@ -22,6 +22,8 @@ return (
 <MDBRow className='row-cols-3 row-cols-md-3 g-4'>
 <MDBCol className='hover-shadow'>
   <MDBCard className='h-100' style={{ backgroundColor: '#6CB4EE', color: 'white',  }} >
+
+
     <MDBCardImage className='pics'
       src='./images/bryan.png'
       alt='...'
