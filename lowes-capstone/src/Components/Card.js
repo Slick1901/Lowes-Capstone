@@ -11,7 +11,6 @@ import {
   MDBRipple
 } from 'mdb-react-ui-kit';
 
-
 export default function Card() {
   return (
     data.map((item) => {
