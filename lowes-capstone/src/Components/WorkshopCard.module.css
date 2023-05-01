@@ -53,6 +53,11 @@ margin-bottom: 4rem;
     font-size: 2rem;
 }
 
+.bButtons:hover {
+    background: transparent;
+    color: #3b71ca;
+  }
+
 
 @media screen and (min-width: 481px) and (max-width: 799px) {
     .holder{

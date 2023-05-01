@@ -9,8 +9,8 @@ function Banner({ message }) {
 
   return (
     showBanner && (
-      <div style={{ backgroundColor: '#6CB4EE', padding: '25px' }}>
-        <span style={{ fontWeight: 'bold' }}>Logged In!!! You are able to register for an event.</span>
+      <div style={{ backgroundColor: 'lightgrey', padding: '15px' }}>
+        <span style={{ color:'black', fontSize: "1.2rem" }}>Logged in! You are able to register for an event.</span>
         <button onClick={handleClose} style={{ float: 'right', marginTop: '-25px'}}>
           X
         </button>
