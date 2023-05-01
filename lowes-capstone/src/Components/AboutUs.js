@@ -16,6 +16,7 @@ const AboutPage = () => {
   return (
   <div>
     <Nav/>
+    <div className="about-wrapper">
     <div className="about-container">
       <h1 className="about-header">About Us</h1>
       
@@ -57,11 +58,14 @@ const AboutPage = () => {
         </MDBCardBody>
       </MDBCard>
       </MDBRow>
+      </div>
     </div>
     <div className="members-title">
             <h1> Meet The Team</h1>
         </div>
-<Founders/>
+        <div className="founders-wrapper">
+          <Founders />
+        </div>
     <Footer/>
     </div>
   );

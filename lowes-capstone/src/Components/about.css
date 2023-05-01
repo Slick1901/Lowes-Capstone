@@ -1,9 +1,8 @@
 .pics{
-    height: 100vh;
-    width: 49vw
+    height: 75vh;
+    width: 29.9vw
 }
 .my-card {
- 
     margin: 0 auto 10px auto;
     width: calc(33.33% - 20px);
   }
@@ -23,7 +22,17 @@
     color: white;
   }
 
+  .founders-wrapper {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  
 
+  .about-wrapper {
+    margin-top: 50px;
+    padding: 50px;
+  }
+  
 /* media queries  for responsiveness*/
 
 @media (max-width: 767px) {
@@ -84,4 +93,43 @@
     width: calc(100% - 20px);
   }
 }
-    
+@media (max-width: 1000px) {
+  .pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pics  {
+    max-width: 348px;
+    max-height: 300px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .row-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .row-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* iPad Air (landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .pics{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* iPad Air (portrait) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .pics{
+    max-width: 100%;
+    height: auto;
+  }
+}
