@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../Components/Card';
 // import logo from '../we-are.jpeg'
-import data from '../Components/cardData.json'
+import data from '../Components/cardData'
 import classes from './Home.module.css'
 import Footer from '../Components/footer';
 import Hero from '../Components/Hero';

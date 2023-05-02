@@ -1,8 +1,10 @@
 .workshopInfoContainer .card{
-    background-color: #6a9be4;
+    background-color: white;
+    color: black;
 }
 .workshopInfoContainer .card-header{
     font-size: 1.5rem;
+    color: black;
 }
 .byLine{
     font-style: italic;
