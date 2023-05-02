@@ -4,7 +4,7 @@ import "./Login.css";
 import Home from "./Pages/Home";
 import AboutPage from "./Pages/About";
 import Logreg from "./Components/Logreg";
-import EventSignUpPage from "./Pages/EventSignUp";
+import EventSignUpPage from "./Pages/Contact";
 import Registration from "./Pages/Registration";
 import DashboardHome from "./Pages/DashboardHome";
 import Products from './Pages/Products.js';
