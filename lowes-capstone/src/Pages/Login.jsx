@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export const Login = (props) => {
   const [email, setEmail] = useState("");
@@ -9,6 +10,8 @@ export const Login = (props) => {
     e.preventDefault();
     console.log(email);
   };
+
+  let navigate = useNavigate();
 
   const [loginStatus, setLoginStatus] = useState("");
 
@@ -49,9 +52,19 @@ export const Login = (props) => {
             id="password"
             name="password"
           />
-          <button className="logButton" onClick={login}>Login</button>
+          <button
+            className="logButton"
+            onClick={() => {
+              navigate("/Dashboard");
+              login();
+            }}
+          >
+            Login
+          </button>
         </form>
       </div>
     </>
   );
 };
+
+
