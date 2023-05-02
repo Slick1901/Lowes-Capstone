@@ -22,7 +22,7 @@ const EventForm = () => {
   return (
     <div className="contact-form-container">
       <div className="contact-form">
-        <h3>Register for an event</h3>
+        <h2>Contact Us</h2>
         <form className="register-form2">
           <label>Full Name</label>
           <input
@@ -53,8 +53,9 @@ const EventForm = () => {
     setMessage(e.target.value);
   }}
 ></textarea>
-
-<button onClick={eventregister}>Register</button>
+<div className="button-container">
+            <button onClick={eventregister}>Register</button>
+          </div>
 </form>
         
       </div>
