@@ -53,7 +53,8 @@ return (
       <MDBCardTitle className="member-name">Deborah Case</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Deborah contributed as a front-end developer who contributed to Home Improvement. With skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project and also leading the team as team lead. 
+
+      Deborah contributed as a front-end developer to Home Improvement. With skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project and also showed great communication skills as a team lead. 
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/deborah-case/' target="_blank" role='button'>
