@@ -7,7 +7,6 @@ import Logreg from "./Components/Logreg";
 import EventSignUpPage from "./Pages/Contact";
 import Registration from "./Pages/Registration";
 import DashboardHome from "./Pages/DashboardHome";
-
 import Products from './Pages/Products.js';
 function App() {
 
@@ -16,6 +15,8 @@ function App() {
         <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
+          <Route path="/dashboardhome" element={<DashboardHome />}  />
+          {/* <Route path="/events" element={<Events />}  /> */}
           <Route path="about" element={<AboutPage />} />
           <Route path="/EventCart" element={<Products/>} />
           <Route path="/register" element={<Registration />} />

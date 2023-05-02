@@ -1,19 +1,19 @@
 import React from 'react';
 import Card from '../Components/Card';
 // import logo from '../we-are.jpeg'
-import data from '../Components/cardData.json'
+import data from '../Components/cardData'
 import classes from './Home.module.css'
 import Footer from '../Components/footer';
 import Hero from '../Components/Hero';
 import DashboardWorkshopCard from '../Components/DashboardWorkshopCard';
 import WorkshopInfo from '../Components/WorkshopInfo';
-import Nav from '../Components/Nav';
+import DashboardNav from '../Components/DashboardNav';
 import Banner from '../Components/Banner';
 
 function DashboardHome(item) {
   return (
     <div className='homeContainer'>
-      <Nav />
+      <DashboardNav />
       <Banner />
         <Hero />
 <WorkshopInfo />

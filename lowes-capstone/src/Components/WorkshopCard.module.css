@@ -49,13 +49,13 @@ margin-bottom: 4rem;
 .bButtons{
     margin: 0 .5rem;
     background-color: transparent;
-    color: white;
+    color: #3b71ca;
     font-size: 2rem;
 }
 
 .bButtons:hover {
     background: transparent;
-    color: #3b71ca;
+    color: #1a202c;
   }
 
 
