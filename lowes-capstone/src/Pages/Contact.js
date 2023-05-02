@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import Map from '../Components/Map';
 import Nav from '../Components/Nav';
 import Footer from '../Components/footer';
@@ -9,9 +10,7 @@ function EventSignUpPage() {
   return (
     <div>
 <Nav/>
-
 <EventForm/>
-<Map/>
      <Footer/>
     </div>
   );
