@@ -7,7 +7,8 @@
 .home .card {
     display: grid;
     place-content: center;
-    background-color: #6a9be4;
+    background-color: white;
+    color: black;
     font-size: 1.5rem;
     height: 100%;
     min-width: 20rem;
@@ -16,4 +17,70 @@
 .home .card-body{
     height: 10rem;
 }
+
+.eventCard .img-fluid {
+    height: 20rem;
+    width: 25rem;
+    object-fit:cover;
+}
+
+.eventCard .card {
+    
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    height: 100%;
+    width: 25rem;
+    
+}
+
+.eventCard .card-body{
+    height: 14rem;
+}
+
+.eventCard .hover-zoom{
+    /* padding: 1rem; */
+    padding: 2rem 0 0 .2rem;
+   
+}
+
+.eventCard{
+    margin: 0 auto;
+    
+}
+
+
+.cart .img-fluid {
+    height: 20rem;
+    width: 25rem;
+    object-fit:cover;
+}
+
+.cart .card {
+    
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    height: 100%;
+    width: 25rem;
+    
+}
+
+.cart .card-body{
+    height: 14rem;
+}
+
+/* .cart .hover-zoom{
+    padding: 1rem;
+    padding: 2rem 0 0 .2rem;
+   
+} */
+
+.cart{
+    margin: 0 auto;
+    
+    
+}
+
+
 
