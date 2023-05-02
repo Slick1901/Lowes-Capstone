@@ -51,15 +51,15 @@ app.post('/login', (req,res)=>{
 	);
 }) 
 
-app.post('/events', (req, res) => {
+app.post('/contact', (req, res) => {
     const name = req.body.name;
-    const event = req.body.event;
-    const date = req.body.date;
-    const location= req.body.location;
+    const email = req.body.email;
+    const number = req.body.number;
+    const message= req.body.message;
   console.log("register was called")
     db.query(
-      "INSERT INTO events (name, event, date, location) VALUES (?,?,?,? )",
-      [name, event, date, location],
+      "INSERT INTO contact (name, email, number, message) VALUES (?,?,?,? )",
+      [name, email, number, message],
       (err, result) => {
         if (err) {
           console.log("event inserting: error " + err); 
