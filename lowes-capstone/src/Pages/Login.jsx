@@ -32,9 +32,9 @@ export const Login = (props) => {
   return (
     <>
       <div className="authForm-container">
-        <h2>Login</h2>
+        <h2 className="log-h2">Login</h2>
         <form className="login-form" onSubmit={handleSubmit}>
-          <label htmlFor="email">Email</label>
+          <label className="log-label" htmlFor="email">Email</label>
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -43,7 +43,7 @@ export const Login = (props) => {
             id="email"
             name="email"
           />
-          <label htmlFor="password">Password</label>
+          <label className="log-label" htmlFor="password">Password</label>
           <input
             value={password}
             onChange={(e) => setPassword(e.target.value)}

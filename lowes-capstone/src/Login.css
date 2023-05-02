@@ -35,6 +35,17 @@
   height: 40px;
 }
 
+.log-label {
+color: white;
+}
+
+.reg-label {
+color: white;
+}
+
+.log-h2 {
+color: white
+}
 
 .regButton {
   border: none;
