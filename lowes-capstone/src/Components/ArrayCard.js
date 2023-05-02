@@ -1,28 +1,31 @@
 import React, { useEffect, useState } from "react";
-import ProductsArray from "../Components/ProductsArray.js";
+// import ProductsArray from "../Components/ProductsArray.js";
+import data from './cardData.json'
 import "./products.css";
 import Cart from "../Components/Cart";
+import EventCard from "./EventCard";
 
 const ArrayCard = () => {
   // Define three state variables using the `useState` hook:
   const [products, setProducts] = useState([]); // array of the products
   const [cart, setCart] = useState([]); // array of items in the cart
   const [sort, setSort] = useState(""); // the sorting option ("title" or "price")
+  
 
   // Add a product to the cart:
-  function addToCart(product) {
-    setCart([...cart, product]);
-  }
+  // function addToCart(product) {
+  //   setCart([...cart, product]);
+  // }
 
   // Remove an item from the cart:
-  function removeItem(item) {
-    const newCart = cart.filter((product) => product.id !== item.id);
-    setCart(newCart);
-  }
+  // function removeItem(data) {
+  //   const newCart = cart.filter((product) => product.id !== data.id);
+  //   setCart(newCart);
+  // }
 
   // Set the value of `products` state to the array of products:
   useEffect(() => {
-    setProducts(ProductsArray);
+    setProducts(data || []);
   }, []);
 
   // Handle changes to the sorting option:
@@ -53,8 +56,11 @@ const ArrayCard = () => {
         </select>
       </div>
       <div className="product-grid">
-        {/* Render the sorted products as a grid of product items */}
-        {sortedProducts.map((product) => (
+        
+          <EventCard props = {data} cart={cart} setCart={setCart}/>
+          
+        
+        {/* {sortedProducts.map((product) => (
           <div key={product.id} className="product-item">
             <img src={product.image} alt={product.title} />
             <div >
@@ -62,7 +68,6 @@ const ArrayCard = () => {
               <p className="description">{product.text}</p>
             
             </div>
-            {/* Add the product to the cart when the "Add to Cart" button is clicked */}
             <button
               onClick={() => addToCart(product)}
               className="product-button"
@@ -70,10 +75,10 @@ const ArrayCard = () => {
               Interested?
             </button>
           </div>
-        ))}
+        ))} */}
       </div>
       {/* Pass the `cart` state and the `removeItem` function as props to the `Cart` component */}
-      <Cart cartItems={cart} removeItem={removeItem} />
+      <Cart cartItems={cart} setCart={setCart}  />
     </div>
   );
 };

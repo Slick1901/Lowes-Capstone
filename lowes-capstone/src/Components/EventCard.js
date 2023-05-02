@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import data from './cardData'
+// import data from './cardData'
 import './Card.css'
 import {
   MDBCard,
@@ -15,17 +15,27 @@ export default function EventCard({props, cart, setCart}) {
 //  const [cart, setCart] = useState([]); // array of items in the cart
 //  function addToCart(product) {
     // setCart([...cart, product]);
-  
-    function addToCart({productID, title, date, image}) {
-        setCart([...cart, productID]);
+  console.log(props)
+    function addToCart({productID, title, date, image, time, category, address}) {
+           const product = {
+            id: productID,
+            title: title,
+            date: date,
+            image: image,
+            time: time,
+            category: category,
+            address: address
+        }
+        setCart([...cart, product]);
+     
         console.log(productID)
-        console.log(productID.title)
-        console.log(productID.date)
+        console.log(title)
+        console.log(date)
       }
   return (
     props.map((item) => {
       return (
-       <div className="home">
+       <div className="eventCard">
         <div className='hover-zoom'>
           <MDBCard  key={item.id} >
           <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
@@ -36,22 +46,28 @@ export default function EventCard({props, cart, setCart}) {
             </a>
           </MDBRipple>
           <MDBCardBody>
+          <MDBCardText>
+              {item.category}
+            </MDBCardText>
             <MDBCardTitle>
             {item.title}
             </MDBCardTitle>
             <MDBCardText>
-                {item.date}
+                {item.date} {item.time}
             </MDBCardText>
             <MDBCardText>
-                {item.time}
+                {item.address}
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
         <button
               onClick={() => addToCart({productID:item.id,
                 title: item.title,
-                date: item.time,
-                image: item.image})}
+                date: item.date,
+                image: item.image,
+                time: item.time,
+                category: item.category,
+                address: item.address})}
               className="product-button"
             >Sign Up</button>
         </div>
