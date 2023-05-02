@@ -39,14 +39,14 @@ export default class Nav extends Component {
     );
   }
 }
-
 const NavWrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #222831;
   padding: 1rem;
-  fontSize: 1.5rem;
+  font-size: 1.5rem;
+
   @media (min-width: 576px) {
     padding: 1rem 2rem;
   }
@@ -67,10 +67,14 @@ const LogoImage = styled.img`
 `;
 
 const MenuItems = styled.ul`
-  display: flex;
-  fontSize: 1.5rem;
-  justify-content: center;
-  align-items: center;
+  display: row;
+  font-size: 1.5rem;
+
+  @media (min-width: 576px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 const MenuItem = styled.li`
