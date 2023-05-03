@@ -4,23 +4,19 @@ import Footer from "../Components/footer";
 import Nav from "../Components/Nav";
 import "../Login.css";
 import { useNavigate } from "react-router-dom";
-
 function Registration() {
   const [emailReg, setEmailReg] = useState("");
   const [passwordReg, setPasswordReg] = useState("");
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
-
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
   };
-
   const validatePassword = (password) => {
     // add your password requirements here
     return password.length >= 8;
   };
-
   const register = () => {
     if (validateEmail(emailReg) && validatePassword(passwordReg)) {
       Axios.post("http://localhost:3001/register", {
@@ -31,7 +27,6 @@ function Registration() {
       });
     }
   };
-
   const handleEmailChange = (e) => {
     setEmailReg(e.target.value);
     if (!validateEmail(e.target.value)) {
@@ -40,18 +35,15 @@ function Registration() {
       setEmailError("");
     }
   };
-
   let navigate = useNavigate();
-
   const handlePasswordChange = (e) => {
     setPasswordReg(e.target.value);
     if (!validatePassword(e.target.value)) {
-      setPasswordError("Password must be at least 8 characters long");
+      setPasswordError("Password must be at least 6 characters long");
     } else {
       setPasswordError("");
     }
   };
-
   return (
     <div className="App">
       <div>
@@ -98,5 +90,4 @@ function Registration() {
     </div>
   );
 }
-
 export default Registration;
