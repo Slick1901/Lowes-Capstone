@@ -28,3 +28,7 @@ h2{
     grid-column: center;
     
   }
+
+.homeContainer .workshopCategory{
+    color: white;
+}
