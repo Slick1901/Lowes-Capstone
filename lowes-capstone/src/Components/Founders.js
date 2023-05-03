@@ -51,8 +51,8 @@ return (
       <MDBCardTitle className="member-name">Deborah Case</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Deborah contributed as a front-end developer  to Home Improvement. With skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project and also coordinating the tasks effectively as team lead. 
-      Deborah contributed as a front-end developer to Home Improvement. With many skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project, User inte and being team lead. 
+
+      Deborah contributed as a front-end developer to Home Improvement. With skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project and also showed great communication skills as a team lead. 
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/deborah-case/' target="_blank" role='button'>
@@ -72,7 +72,7 @@ return (
       <MDBCardTitle className="member-name">Lindsey Harris</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Lindsey is a front-end developer who contributed to Home Improvement. With skills acquired through the apprenticeship, Lindsey played a pivotal role in developing the front-end.
+      Lindsey Harris is a front-end developer who contributed to Home Improvement. With  many  skills and knowledge acquired through the apprenticeship, Lindsey played a pivotal role in developing the front-end and added the neccesary styling changes.
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/lindsey-harris1228/' target="_blank" role='button'>
@@ -92,7 +92,7 @@ return (
       <MDBCardTitle className="member-name">Chanthai Phakdy</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Chanthai is a backend developer who contributed to Home Improvement. Using their backend knowledge, Chanthai played a key role in building the backend of the project. Chanthai also assisted with front-end functionality aswell.
+      Chanthai Phakdy is a backend developer who contributed to Home Improvement. Using their backend knowledge and skills learned , Chanthai played a key role in building the backend of the project. Chanthai also assisted with front-end functionality aswell.
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/chanthaiphakdy/' target="_blank" role='button'>
@@ -112,7 +112,7 @@ return (
       <MDBCardTitle className="member-name">Sincere Legere</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Sincere is a front-end developer who contributed to Home Improvement. With skills acquired through the apprenticeship, Sincere played a crucial role in developing the front-end of the project.
+      Sincere is a front-end developer who contributed to Home Improvement. With skills acquired through the apprenticeship, Sincere played a crucial role in developing the front-end of the project. Sincere also greatly contributed as the project manager.
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/sincere-legere-007141247/' target="_blank" role='button'>
@@ -187,10 +187,10 @@ return (
             </p>
           </MDBCol>
         </MDBRow>
-      </section>  
-    </MDBContainer>    
-  </MDBCard>  
-</MDBCol> */} 
+      </section> 
+    </MDBContainer>  
+  </MDBCard> 
+</MDBCol> */}
 </MDBRow>
 </main>
 )
