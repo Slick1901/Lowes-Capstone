@@ -1,36 +1,29 @@
-import React, { useState } from 'react';
-import  Axios  from "axios";
-import './eventform.css'
-
-
-
+import React, { useState } from "react";
+import Axios from "axios";
+import "./eventform.css";
 const EventForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [number, setNumber] = useState('');
-  const [message, setMessage] = useState('');
-
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [message, setMessage] = useState("");
   const eventregister = () => {
-    Axios.post('http://localhost:3001/contact', {
+    Axios.post("http://localhost:3001/contact", {
       name: name,
       email: email,
       number: number,
-      message: message
+      message: message,
     }).then((response) => {
-      console.log(response)
-    })
-  }
-
+      console.log(response);
+    });
+  };
   return (
     <div className="contact-form-container">
       <div className="contact-form">
-        <h2>Contact Us</h2>
         <h2>Contact Us</h2>
         <form className="register-form2">
           <label>Full Name</label>
           <input
             type="text"
-            required
             onChange={(e) => {
               setName(e.target.value);
             }}
@@ -38,7 +31,6 @@ const EventForm = () => {
           <label>Email</label>
           <input
             type="text"
-            required
             onChange={(e) => {
               setEmail(e.target.value);
             }}
@@ -46,17 +38,15 @@ const EventForm = () => {
           <label>Phone Number</label>
           <input
             type="text"
-            required
             onChange={(e) => {
               setNumber(e.target.value);
             }}
           />
-         
+          <label>Message:</label>
+
           <textarea
-            rows="6"
+            rows="3"
             cols="50"
-            required
-            placeholder="Enter your message here..."
             onChange={(e) => {
               setMessage(e.target.value);
             }}
@@ -65,9 +55,9 @@ const EventForm = () => {
             <button onClick={eventregister}>Register</button>
           </div>
         </form>
-        
       </div>
     </div>
   );
-}
+};
 export default EventForm;
+
