@@ -1,6 +1,7 @@
 .pics{
-    height: 75vh;
-    width: 29.9vw
+    height: 35vh;
+    width: 250px;
+    object-fit: cover
 }
 .my-card {
  
@@ -17,7 +18,7 @@
   .members-title h1{
     text-align: center;
     letter-spacing: 1px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 20px;
     color: white;
