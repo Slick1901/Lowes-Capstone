@@ -1,14 +1,12 @@
-
-
 import React from "react";
 import ArrayCard from "../Components/ArrayCard";
-import Nav from "../Components/Nav";
+import DashboardNav from "../Components/DashboardNav";
 // import "../styles/products.css";
 import Footer from "../Components/footer";
 function Products() {
   return (
     <div>
-      <Nav/>
+      <DashboardNav/>
       <ArrayCard />
       <Footer/>
     </div>

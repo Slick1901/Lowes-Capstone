@@ -3,6 +3,7 @@ h2{
     border: double .4rem white;
     border-radius: 1.5rem;
     padding: .7rem;
+    color: white;
    
 }
 .workshopContainer{
@@ -27,3 +28,7 @@ h2{
     grid-column: center;
     
   }
+
+.homeContainer .workshopCategory{
+    color: white;
+}

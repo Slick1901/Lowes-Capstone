@@ -56,6 +56,11 @@
     object-fit:cover;
 }
 
+/* .cart .hover-zoom{
+    display: flex;
+    flex-direction: column;
+} */
+
 .cart .card {
     
     background-color: white;
@@ -76,11 +81,26 @@
    
 } */
 
+/* .cartContainer .cart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
 .cart{
     margin: 0 auto;
     
     
 }
+
+@media screen and (max-width: 480px){
+    .cart .card{
+        width: 20rem;
+    }
+}
+
+
+
 
 
 

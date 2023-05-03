@@ -18,8 +18,17 @@ body {
   text-align: center;
 }
 
-.container{
+.categorySelector{
+  width: 50%;
+}
+
+.arrayContainer{
   margin: 7rem auto;
+  width: 95%;
+}
+
+.cartContainer .cartTitle{
+  color: white;
 }
 
 .cartContainer{
@@ -82,6 +91,11 @@ img:hover{
 .featured-products button:hover {
   background-color: #fff;
   color: #333;
+}
+@media screen and (max-width: 480px){
+   .card{
+      width: 20rem;
+  }
 }
 
 /* For tablet */

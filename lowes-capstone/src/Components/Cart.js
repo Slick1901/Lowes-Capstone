@@ -18,7 +18,7 @@ const Cart = ({ cartItems, setCart }) => {
   }
   return (
     <div className="cartContainer">
-      <h2>My Events</h2>
+      <h2 className='cartTitle'>My Events</h2>
       {/* Display a message if the cart is empty */}
       {cartItems.length === 0 ? (
         <p>No Events Selected</p>

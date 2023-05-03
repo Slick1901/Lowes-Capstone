@@ -45,12 +45,12 @@ const ArrayCard = () => {
   });
 
   return (
-    <div className="container">
-      <h1>Events Page</h1>
+    <div className="arrayContainer">
+      <h1>All Events</h1>
       <div className="filter">
         <span>Sort by:</span>
         {/* The `value` and `onChange` props bind the dropdown menu to the `sort` state */}
-        <select value={sort} onChange={handleSortChange}>
+        <select value={sort} onChange={handleSortChange} className='categorySelector'>
           <option value="">Select an option</option>
           <option value="title">Name(A-Z)</option>
         </select>
