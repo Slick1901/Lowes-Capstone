@@ -1,24 +1,23 @@
-import React, { useState } from 'react';
-import  Axios  from "axios";
-import './eventform.css'
-
+import React, { useState } from "react";
+import Axios from "axios";
+import "./eventform.css";
 
 const EventForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [number, setNumber] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [message, setMessage] = useState("");
 
   const eventregister = () => {
-    Axios.post('http://localhost:3001/contact', {
+    Axios.post("http://localhost:3001/contact", {
       name: name,
       email: email,
       number: number,
-      message: message
+      message: message,
     }).then((response) => {
-      console.log(response)
-    })
-  }
+      console.log(response);
+    });
+  };
 
   return (
     <div className="contact-form-container">
@@ -47,22 +46,21 @@ const EventForm = () => {
             }}
           />
           <label>Message:</label>
-<textarea
-  rows="6"
-  cols="50"
-  onChange={(e) => {
-    setMessage(e.target.value);
-  }}
-></textarea>
-<div className="button-container">
+
+          <textarea
+            rows="5"
+            cols="50"
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
+          ></textarea>
+          <div className="button-container">
             <button onClick={eventregister}>Register</button>
           </div>
-</form>
-        
+        </form>
       </div>
     </div>
   );
-}
+};
 
 export default EventForm;
-
