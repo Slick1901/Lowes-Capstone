@@ -3,6 +3,7 @@ import  Axios  from "axios";
 import './eventform.css'
 
 
+
 const EventForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -23,6 +24,7 @@ const EventForm = () => {
   return (
     <div className="contact-form-container">
       <div className="contact-form">
+        <h2>Contact Us</h2>
         <h2>Contact Us</h2>
         <form className="register-form2">
           <label>Full Name</label>
