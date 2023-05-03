@@ -18,9 +18,9 @@ const AboutPage = () => {
     <Nav/>
     <div className="about-wrapper">
     <div className="about-container">
-      <h1 className="about-header">About Us</h1>
+      <h2 className="about-header" style={{ fontSize: '3rem',color: 'white'}}>About Us</h2>
       
-      <MDBRow className='row-cols-1 row-cols-md-4 g-4'>
+      <MDBRow className='row-cols-1 row-cols-md-4 g-4'  style={{ margin: 40}}>
       <MDBCard  style={{ backgroundColor: '#ffffff', color: 'black' }} className='text-body mb-3 my-card' >
         <MDBCardHeader  style={{ fontSize: '1.5rem' }}>Who We Are?</MDBCardHeader>
         <MDBCardBody>
@@ -61,7 +61,7 @@ const AboutPage = () => {
       </div>
     </div>
     <div className="members-title">
-            <h1> Meet The Team</h1>
+            <h2 style={{ fontSize: '3rem',color: 'white' }} > Meet The Team</h2>
         </div>
         <div className="founders-wrapper">
           <Founders />

@@ -45,7 +45,7 @@ const NavWrapper = styled.nav`
   align-items: center;
   background-color: #222831;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   @media (min-width: 576px) {
     padding: 1rem 2rem;
@@ -68,7 +68,7 @@ const LogoImage = styled.img`
 
 const MenuItems = styled.ul`
   display: row;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   @media (min-width: 576px) {
     display: flex;
@@ -79,5 +79,5 @@ const MenuItems = styled.ul`
 
 const MenuItem = styled.li`
   margin: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 `;

@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import Axios from "axios";
 import "./eventform.css";
-
 const EventForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
-
   const eventregister = () => {
     Axios.post("http://localhost:3001/contact", {
       name: name,
@@ -18,7 +16,6 @@ const EventForm = () => {
       console.log(response);
     });
   };
-
   return (
     <div className="contact-form-container">
       <div className="contact-form">
@@ -62,5 +59,13 @@ const EventForm = () => {
     </div>
   );
 };
-
 export default EventForm;
+
+
+
+
+
+
+
+
+
