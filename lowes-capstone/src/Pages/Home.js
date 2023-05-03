@@ -11,20 +11,20 @@ import Nav from '../Components/Nav';
 
 function Home(item) {
   return (
-    <div className='homeContainer'>
+    <div className={classes.homeContainer}>
       <Nav />
         <Hero />
 <WorkshopInfo />
         <div className={classes.workshopContainer}>
         <section className={classes.section}>
-        <h2 className='workshopCategory'>In-Person Workshops</h2>
+        <h2 className={classes.workshopCategory}>In-Person Workshops</h2>
         <h3>{item.category}</h3>
         <div>
             <WorkshopCard props={data}/>
         </div>
         </section>
         <section className={classes.section}>
-       <h2 className='workshopCategory'>Virtual Workshops</h2>
+       <h2 className={classes.workshopCategory}>Virtual Workshops</h2>
          <div className={classes.cardsWrapper}>
             <Card props = {data} width='100%'/>
         </div>

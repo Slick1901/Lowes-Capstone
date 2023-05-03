@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import logo1 from './logo.jpeg';
 
-export default class Nav extends Component {
+export default class DashboardNav extends Component {
   render() {
     return (
       <NavWrapper>
         <LogoWrapper>
-          <Link to="/">
+          <Link to="/Dashboard">
             <LogoImage src={logo1} alt="home" />
           </Link>
         </LogoWrapper>
 
         <MenuItems>
           <MenuItem>
-            <Link to="/about" className="nav-link">
+            <Link to="/DashboardAbout" className="nav-link">
             About Us
             </Link>
           </MenuItem>
@@ -25,7 +25,7 @@ export default class Nav extends Component {
             </Link>
           </MenuItem>
           <MenuItem>
-            <Link to="/Contact" className="nav-link">
+            <Link to="/DashboardContact" className="nav-link">
             Contact
             </Link>
           </MenuItem>
