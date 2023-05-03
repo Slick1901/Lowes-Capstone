@@ -10,8 +10,6 @@ import {
     MDBBtn,
     MDBIcon,
     MDBCol,
-    MDBTypography,
-    MDBContainer,
   } from 'mdb-react-ui-kit';
 
 
@@ -19,21 +17,21 @@ export default function Founders(){
 return (
 <main>
 
-<MDBRow className='row-cols-3 row-cols-md-3 g-4'>
+<MDBRow className='row-cols-3 row-cols-md-5 g-4'>
 <MDBCol className='hover-shadow'>
-  <MDBCard className='h-100' style={{ backgroundColor: '#ffffff', color: 'black' }} >
+  <MDBCard className='h-100' style={{ backgroundColor: '#ffffff', color: 'black',}} >
 
 
     <MDBCardImage className='pics'
       src='./images/bryan.png'
       alt='...'
       position='top'
-    />
-    <MDBCardBody>
+      />
+    <MDBCardBody >
       <MDBCardTitle className="member-name">Bryan Olvera</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Bryan contributed as a full-stack developer role in the development of Home Improvement. With a good foundation in both front-end and back-end development, Bryan made great contributions to the project's user interface, and overall functionality.
+      Bryan contributed as a full-stack developer role in the development of Home Improvement. With a good foundation in both front-end and back-end development, Bryan made great contributions to the project's user interface, and functionality.
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/bolvera/' target="_blank" role='button'>
@@ -53,7 +51,7 @@ return (
       <MDBCardTitle className="member-name">Deborah Case</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Deborah contributed as a front-end developer  to Home Improvement. With skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project and also coordinating the tasks effectively as team lead. 
+      Deborah contributed as a front-end developer to Home Improvement. With many skills learned throughout the apprenticeship, Deborah played a key role in building the front-end of the project, User inte and being team lead. 
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/deborah-case/' target="_blank" role='button'>
@@ -73,7 +71,7 @@ return (
       <MDBCardTitle className="member-name">Lindsey Harris</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Lindsey is a front-end developer who contributed to Home Improvement. With skills acquired through the apprenticeship, Lindsey played a pivotal role in developing the front-end of the project aswell as assisting with the backend.
+      Lindsey is a front-end developer who contributed to Home Improvement. With skills acquired through the apprenticeship, Lindsey played a pivotal role in developing the front-end.
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/lindsey-harris1228/' target="_blank" role='button'>
@@ -93,7 +91,7 @@ return (
       <MDBCardTitle className="member-name">Chanthai Phakdy</MDBCardTitle>
       <MDBCardText className="member-bio">
       <p style={{ fontSize: '1.3rem' }}>
-      Chanthai is a backend developer who contributed to Home Improvement. Using their backend knowledge, Chanthai played a key role in building the backend of the project. Chanthai also assisted with front-end functionality
+      Chanthai is a backend developer who contributed to Home Improvement. Using their backend knowledge, Chanthai played a key role in building the backend of the project. Chanthai also assisted with front-end functionality aswell.
       </p>
       </MDBCardText>
       <MDBBtn outline color="secondary" floating className='linkedin-icon' href='https://www.linkedin.com/in/chanthaiphakdy/' target="_blank" role='button'>
@@ -102,7 +100,7 @@ return (
     </MDBCardBody>
   </MDBCard>
 </MDBCol>
-<MDBCol className='hover-shadow'>
+<MDBCol className='hover-shadow' >
   <MDBCard className='h-100' style={{ backgroundColor: '#ffffff', color: 'black' }}>
     <MDBCardImage className='pics'
       src='./images/sincere.jpg'
