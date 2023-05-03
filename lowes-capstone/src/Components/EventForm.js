@@ -48,7 +48,7 @@ const EventForm = () => {
           <label>Message:</label>
 
           <textarea
-            rows="5"
+            rows="3"
             cols="50"
             onChange={(e) => {
               setMessage(e.target.value);
